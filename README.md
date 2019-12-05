@@ -1,6 +1,8 @@
 # Deep Learning for Cardiologist-level Myocardial Infarction Detection in Electrocardiogram
 
-This repository includes a PyTorch implementation of Text Embedding Bank Module for Detailed Image Paragraph Captioning. Our code makes use of the Physikalisch-Technische Bundesanstalt (PTB) database, available [here](https://physionet.org/content/ptbdb/1.0.0/), and is based on the ConvNetQuake architecture, as described [here](https://physionet.org/content/ptbdb/1.0.0/).
+This repository includes a PyTorch implementation of Deep Learning for Cardiologist-level Myocardial Infarction Detection in Electrocardiogram. Our code makes use of the Physikalisch-Technische Bundesanstalt (PTB) database, available [here](https://physionet.org/content/ptbdb/1.0.0/), and is based on the ConvNetQuake architecture, as described [here](https://advances.sciencemag.org/content/4/2/e1700578).
+
+![test_img](/architecture.png)
 
 ### Requirements
 * Python 2.7
