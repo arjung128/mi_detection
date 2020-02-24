@@ -1,6 +1,6 @@
 # Deep Learning for Cardiologist-level Myocardial Infarction Detection in Electrocardiogram
 
-This repository includes a PyTorch implementation of Deep Learning for Cardiologist-level Myocardial Infarction Detection in Electrocardiogram. Our code makes use of the Physikalisch-Technische Bundesanstalt (PTB) database, available [here](https://physionet.org/content/ptbdb/1.0.0/), and is based on the ConvNetQuake architecture, as described [here](https://advances.sciencemag.org/content/4/2/e1700578).
+This repository includes a PyTorch implementation of 'Deep Learning for Cardiologist-level Myocardial Infarction Detection in Electrocardiograms' which can be found [here](https://arxiv.org/abs/1912.07618). Our code makes use of the Physikalisch-Technische Bundesanstalt (PTB) database, available [here](https://physionet.org/content/ptbdb/1.0.0/), and is based on the ConvNetQuake architecture, as described [here](https://advances.sciencemag.org/content/4/2/e1700578).
 
 The architecture of the model is as follows:
 
