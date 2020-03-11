@@ -1,0 +1,68 @@
+s0297lre 15 1000 115200
+s0297lre.dat 16 2000 16 0 2438 -1068 0 i
+s0297lre.dat 16 2000 16 0 1038 -9973 0 ii
+s0297lre.dat 16 2000 16 0 -1400 23562 0 iii
+s0297lre.dat 16 2000 16 0 -1738 -27156 0 avr
+s0297lre.dat 16 2000 16 0 1919 28506 0 avl
+s0297lre.dat 16 2000 16 0 -181 -4752 0 avf
+s0297lre.dat 16 2000 16 0 1863 5729 0 v1
+s0297lre.dat 16 2000 16 0 1841 2793 0 v2
+s0297lre.dat 16 2000 16 0 2699 -29066 0 v3
+s0297lre.dat 16 2000 16 0 2513 -15859 0 v4
+s0297lre.dat 16 2000 16 0 5206 -19038 0 v5
+s0297lre.dat 16 2000 16 0 -413 11955 0 v6
+s0297lre.xyz 16 2000 16 0 3625 19988 0 vx
+s0297lre.xyz 16 2000 16 0 -3178 -19924 0 vy
+s0297lre.xyz 16 2000 16 0 824 6560 0 vz
+
+# age: 56
+# sex: female
+# ECG date: 09/06/1992
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): posterior
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension, Diabetes mellitus, Hyperlipoproteinemia Type IV, Obesity
+# Smoker: yes
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): 04-Jun-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 12-Jun-92
+# Ventriculography: not available
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  140/90 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): not available
+# Left coronary artery stenoses (RCX): not available
+# Right coronary artery stenoses (RCA): not available
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 04-Jun-92
+# Catheterization date: 12-Jun-92
+# Admission date: 04-Jun-92
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 11:00
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: ASA Magnesium Glibenclamide Isosorbit-Dinitrate
+# In hospital medication: ASA Glibenclamide
+# Medication after discharge: Isosorbit-Mononitrate Molsidomin ASA Glibenclamide

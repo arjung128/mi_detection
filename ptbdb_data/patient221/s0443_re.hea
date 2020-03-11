@@ -1,0 +1,68 @@
+s0443_re 15 1000 120012
+s0443_re.dat 16 2000 16 0 195 21286 0 i
+s0443_re.dat 16 2000 16 0 -6026 27919 0 ii
+s0443_re.dat 16 2000 16 0 -6222 2610 0 iii
+s0443_re.dat 16 2000 16 0 2915 11580 0 avr
+s0443_re.dat 16 2000 16 0 3208 -16219 0 avl
+s0443_re.dat 16 2000 16 0 -6124 15093 0 avf
+s0443_re.dat 16 2000 16 0 3546 -27021 0 v1
+s0443_re.dat 16 2000 16 0 3425 -25547 0 v2
+s0443_re.dat 16 2000 16 0 2780 15799 0 v3
+s0443_re.dat 16 2000 16 0 3245 9534 0 v4
+s0443_re.dat 16 2000 16 0 2443 10079 0 v5
+s0443_re.dat 16 2000 16 0 2202 11202 0 v6
+s0443_re.xyz 16 2000 16 0 285 -28347 0 vx
+s0443_re.xyz 16 2000 16 0 -4034 26602 0 vy
+s0443_re.xyz 16 2000 16 0 -385 4818 0 vz
+
+# age: 63
+# sex: male
+# ECG date: 14/05/1996
+
+# Diagnose:
+# Reason for admission: Hypertrophy
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension, minimal aortic regurgitation
+# Smoker: no
+# Number of coronary vessels involved: 0
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 13-May-96
+# Ventriculography: Moderately impaired LV contractility
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): No stenoses
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: LV hypertrophy (septum 20mm) ,FS>40%.
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 13-May-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0058lre 15 1000 115200
+s0058lre.dat 16 2000 16 0 -1971 5220 0 i
+s0058lre.dat 16 2000 16 0 -3330 19884 0 ii
+s0058lre.dat 16 2000 16 0 -1358 -27168 0 iii
+s0058lre.dat 16 2000 16 0 2650 20646 0 avr
+s0058lre.dat 16 2000 16 0 -306 -19243 0 avl
+s0058lre.dat 16 2000 16 0 -2344 20681 0 avf
+s0058lre.dat 16 2000 16 0 -321 -25664 0 v1
+s0058lre.dat 16 2000 16 0 -2282 22760 0 v2
+s0058lre.dat 16 2000 16 0 -3181 18746 0 v3
+s0058lre.dat 16 2000 16 0 -1976 -10139 0 v4
+s0058lre.dat 16 2000 16 0 -1516 -21580 0 v5
+s0058lre.dat 16 2000 16 0 -1234 30031 0 v6
+s0058lre.xyz 16 2000 16 0 -916 -3208 0 vx
+s0058lre.xyz 16 2000 16 0 -1 24590 0 vy
+s0058lre.xyz 16 2000 16 0 387 28917 0 vz
+
+# age: 57
+# sex: male
+# ECG date: 26/11/1990
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): infero-lateral
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension, Hyperlipoproteinemia Typ IIa, Obesity
+# Smoker: yes
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 24-Nov-90
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 03-Dec-90
+# Ventriculography: Hypokinesia inferior wall and apex
+# Chest X-ray: Heart size upper limit of norm
+# Peripheral blood Pressure (syst/diast):  110/80 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast):   19/7 cmH2O
+# Pulmonary artery pressure (at rest) (mean): 13 cmH2O
+# Pulmonary capillary wedge pressure (at rest): 10 cmH2O
+# Cardiac output (at rest): 7,9 l/min
+# Cardiac index (at rest): 3,9 l/min/sqrmBSA
+# Stroke volume index (at rest):  50.0 ml/beat
+# Pulmonary artery pressure (laod) (syst/diast):   38/17 cmH2O
+# Pulmonary artery pressure (laod) (mean): 16 cmH2O
+# Pulmonary capillary wedge pressure (load): 17 cmH2O
+# Cardiac output (load): 15,1 l/min
+# Cardiac index (load): 7,5 l/min/sqrmBSA
+# Stroke volume index (load): 54 ml/beat
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure:   pre ventriculography 11, post ventriculography 12 cmH2O
+# Left coronary artery stenoses (RIVA): No stenoses
+# Left coronary artery stenoses (RCX): Ramus postero-lateralis of RCX 70%
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 24-Nov-90
+# Catheterization date: 03-Dec-90
+# Admission date: 24-Nov-90
+# Medication pre admission: Metoprolol Diazepam
+# Start lysis therapy (hh.mm): 16:55
+# Lytic agent: Urokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Heparin Isosorbit-Mononitrate ASA Diazepam Ranitidin
+# In hospital medication: Metoprolol Nitrate-spray Isosorbit-Dinitrate Diazepam Ofloxacin
+# Medication after discharge: ASA

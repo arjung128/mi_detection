@@ -1,0 +1,68 @@
+s0420_re 15 1000 120012
+s0420_re.dat 16 2000 16 0 -43 20126 0 i
+s0420_re.dat 16 2000 16 0 -240 15457 0 ii
+s0420_re.dat 16 2000 16 0 -199 10297 0 iii
+s0420_re.dat 16 2000 16 0 142 -4176 0 avr
+s0420_re.dat 16 2000 16 0 78 -3137 0 avl
+s0420_re.dat 16 2000 16 0 -220 24960 0 avf
+s0420_re.dat 16 2000 16 0 813 11345 0 v1
+s0420_re.dat 16 2000 16 0 1117 -29987 0 v2
+s0420_re.dat 16 2000 16 0 2675 25290 0 v3
+s0420_re.dat 16 2000 16 0 2529 30707 0 v4
+s0420_re.dat 16 2000 16 0 3311 5988 0 v5
+s0420_re.dat 16 2000 16 0 524 -4514 0 v6
+s0420_re.xyz 16 2000 16 0 529 -17570 0 vx
+s0420_re.xyz 16 2000 16 0 -398 2041 0 vy
+s0420_re.xyz 16 2000 16 0 -421 29718 0 vz
+
+# age: 39
+# sex: male
+# ECG date: 22/02/1996
+
+# Diagnose:
+# Reason for admission: Cardiomyopathy
+# Acute infarction (localization): no
+# Former infarction (localization): unknown
+# Additional diagnoses: Atrial fibrillation, Hypertropic cardiomyopathy
+# Smoker: unknown
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: Enlarged left atrium (50mm). Good global contractility. Hypokinesia of the apikal and middle portions of the septum, the inferior and antero-septalen wall. LV hypertrophy. Mitral valve prolaps.
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: Phenprocoumon Ca-antagonist
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

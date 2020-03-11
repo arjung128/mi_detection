@@ -1,0 +1,68 @@
+s0422_re 15 1000 120012
+s0422_re.dat 16 2000 16 0 -4505 24198 0 i
+s0422_re.dat 16 2000 16 0 -4544 -15973 0 ii
+s0422_re.dat 16 2000 16 0 -39 -7534 0 iii
+s0422_re.dat 16 2000 16 0 4524 28850 0 avr
+s0422_re.dat 16 2000 16 0 -2233 26519 0 avl
+s0422_re.dat 16 2000 16 0 -2292 10832 0 avf
+s0422_re.dat 16 2000 16 0 175 6377 0 v1
+s0422_re.dat 16 2000 16 0 -918 -468 0 v2
+s0422_re.dat 16 2000 16 0 -285 24722 0 v3
+s0422_re.dat 16 2000 16 0 -469 -31089 0 v4
+s0422_re.dat 16 2000 16 0 -2399 -23379 0 v5
+s0422_re.dat 16 2000 16 0 -984 16279 0 v6
+s0422_re.xyz 16 2000 16 0 -926 -1970 0 vx
+s0422_re.xyz 16 2000 16 0 -1079 -28087 0 vy
+s0422_re.xyz 16 2000 16 0 579 -18649 0 vz
+
+# age: 29
+# sex: male
+# ECG date: 26/02/1996
+
+# Diagnose:
+# Reason for admission: Bundle branch block
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: no
+# Smoker: unknown
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: no Echo
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: Trihexylphenidyl-HCl Tetrabenazin
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

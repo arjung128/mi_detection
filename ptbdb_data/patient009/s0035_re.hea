@@ -1,0 +1,68 @@
+s0035_re 15 1000 32000
+s0035_re.dat 16 2000 16 0 -53 -4313 0 i
+s0035_re.dat 16 2000 16 0 -11 -5600 0 ii
+s0035_re.dat 16 2000 16 0 42 -1237 0 iii
+s0035_re.dat 16 2000 16 0 31 -11036 0 avr
+s0035_re.dat 16 2000 16 0 -47 14517 0 avl
+s0035_re.dat 16 2000 16 0 15 -20429 0 avf
+s0035_re.dat 16 2000 16 0 -22 2712 0 v1
+s0035_re.dat 16 2000 16 0 -225 11220 0 v2
+s0035_re.dat 16 2000 16 0 -471 10901 0 v3
+s0035_re.dat 16 2000 16 0 -256 9340 0 v4
+s0035_re.dat 16 2000 16 0 -167 5661 0 v5
+s0035_re.dat 16 2000 16 0 -170 15391 0 v6
+s0035_re.xyz 16 2000 16 0 -126 11926 0 vx
+s0035_re.xyz 16 2000 16 0 138 -8976 0 vy
+s0035_re.xyz 16 2000 16 0 -30 10518 0 vz
+
+# age: 66
+# sex: male
+# ECG date: 06/11/1990
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): infero-lateral
+# Former infarction (localization): no
+# Additional diagnoses: Nephrotic syndrome, Rheumatoid arthritis
+# Smoker: yes
+# Number of coronary vessels involved: 2
+# Infarction date (acute): 26-Oct-90
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 26-Oct-90
+# Ventriculography: not available
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  90/70 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA proximal to ramus diagonalis_2 70%
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: Normal
+
+# Therapy:
+# Infarction date: 26-Oct-90
+# Catheterization date: 26-Oct-90
+# Admission date: 26-Oct-90
+# Medication pre admission: Diclofenac D-Penicillamin Spironolactone Furosemide
+# Start lysis therapy (hh.mm): 12:47
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate Heparin ASA
+# In hospital medication: ASA Isosorbit-Mononitrate Diazepam
+# Medication after discharge: Isosorbit-Mononitrate Calcium Colecalciferol

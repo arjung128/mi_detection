@@ -1,0 +1,68 @@
+s0327lre 15 1000 115200
+s0327lre.dat 16 2000 16 0 5424 -32066 0 i
+s0327lre.dat 16 2000 16 0 1642 29498 0 ii
+s0327lre.dat 16 2000 16 0 -3782 -30202 0 iii
+s0327lre.dat 16 2000 16 0 -3533 13187 0 avr
+s0327lre.dat 16 2000 16 0 4603 -1491 0 avl
+s0327lre.dat 16 2000 16 0 -1070 -2350 0 avf
+s0327lre.dat 16 2000 16 0 1436 14216 0 v1
+s0327lre.dat 16 2000 16 0 -288 -7717 0 v2
+s0327lre.dat 16 2000 16 0 2222 31097 0 v3
+s0327lre.dat 16 2000 16 0 1550 31117 0 v4
+s0327lre.dat 16 2000 16 0 1156 -5666 0 v5
+s0327lre.dat 16 2000 16 0 4345 22410 0 v6
+s0327lre.xyz 16 2000 16 0 -270 2137 0 vx
+s0327lre.xyz 16 2000 16 0 -1510 -28548 0 vy
+s0327lre.xyz 16 2000 16 0 -640 23309 0 vz
+
+# age: 50
+# sex: male
+# ECG date: 18/08/1992
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): no
+# Additional diagnoses: M. Bechterew
+# Smoker: yes
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 20-Jan-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: Hypokinesia apex
+# Chest X-ray: Slightly enlarged Haert (left), emphysema
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): No stenoses
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): RCA proximal 45-50%
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 20-Jan-92
+# Catheterization date: n/a
+# Admission date: 20-Jan-92
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 08:50
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate Magnesium ASA Diazepam
+# In hospital medication: ASA
+# Medication after discharge: ASA

@@ -1,0 +1,68 @@
+s0451_re 15 1000 120012
+s0451_re.dat 16 2000 16 0 -3769 -3164 0 i
+s0451_re.dat 16 2000 16 0 -989 5006 0 ii
+s0451_re.dat 16 2000 16 0 2781 8008 0 iii
+s0451_re.dat 16 2000 16 0 2379 -874 0 avr
+s0451_re.dat 16 2000 16 0 -3275 -5461 0 avl
+s0451_re.dat 16 2000 16 0 896 1417 0 avf
+s0451_re.dat 16 2000 16 0 1052 -18138 0 v1
+s0451_re.dat 16 2000 16 0 876 -10071 0 v2
+s0451_re.dat 16 2000 16 0 -274 -18478 0 v3
+s0451_re.dat 16 2000 16 0 -1322 -29775 0 v4
+s0451_re.dat 16 2000 16 0 -1172 -26354 0 v5
+s0451_re.dat 16 2000 16 0 -1360 -31749 0 v6
+s0451_re.xyz 16 2000 16 0 -364 -7182 0 vx
+s0451_re.xyz 16 2000 16 0 -1088 8666 0 vy
+s0451_re.xyz 16 2000 16 0 -678 -14048 0 vz
+
+# age: 73
+# sex: male
+# ECG date: 07/06/1996
+
+# Diagnose:
+# Reason for admission: Bundle branch block
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Coronary artery disease, Diabetes mellitus, Arterial hypertension
+# Smoker: no
+# Number of coronary vessels involved: 2
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 30-May-96
+# Ventriculography: LV hypertrophy
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA proximal 75%
+# Left coronary artery stenoses (RCX): Ramus marginalis_1 and ramus marginalis_2 90%
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: Pericardial effusion 7mm, 
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 30-May-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

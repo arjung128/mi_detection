@@ -1,0 +1,68 @@
+s0449_re 15 1000 120012
+s0449_re.dat 16 2000 16 0 -181 31799 0 i
+s0449_re.dat 16 2000 16 0 -506 -18596 0 ii
+s0449_re.dat 16 2000 16 0 -323 22323 0 iii
+s0449_re.dat 16 2000 16 0 343 -4830 0 avr
+s0449_re.dat 16 2000 16 0 72 -23804 0 avl
+s0449_re.dat 16 2000 16 0 -415 -30928 0 avf
+s0449_re.dat 16 2000 16 0 -75 1420 0 v1
+s0449_re.dat 16 2000 16 0 -64 24359 0 v2
+s0449_re.dat 16 2000 16 0 -293 8727 0 v3
+s0449_re.dat 16 2000 16 0 305 3740 0 v4
+s0449_re.dat 16 2000 16 0 297 3816 0 v5
+s0449_re.dat 16 2000 16 0 -280 27265 0 v6
+s0449_re.xyz 16 2000 16 0 127 -22932 0 vx
+s0449_re.xyz 16 2000 16 0 563 -15238 0 vy
+s0449_re.xyz 16 2000 16 0 126 -2702 0 vz
+
+# age: 62
+# sex: male
+# ECG date: 06/06/1996
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): infero-lateral
+# Former infarction (localization): no
+# Additional diagnoses: Prosthetic aortic valve, Arterial hypertension, Mitral regurgitation (grade 2)
+# Smoker: no
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): 27-May-96
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: LV hypertrophy, good global contractility, Akinesia infero-basal, Hypokinesia posterior, Enlarged aortic root, Mitral regurgitation (grade 2)
+
+# Therapy:
+# Infarction date: 27-May-96
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

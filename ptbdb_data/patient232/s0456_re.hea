@@ -1,0 +1,68 @@
+s0456_re 15 1000 120012
+s0456_re.dat 16 2000 16 0 -38 12730 0 i
+s0456_re.dat 16 2000 16 0 191 -27463 0 ii
+s0456_re.dat 16 2000 16 0 229 -540 0 iii
+s0456_re.dat 16 2000 16 0 -77 -24687 0 avr
+s0456_re.dat 16 2000 16 0 -134 8112 0 avl
+s0456_re.dat 16 2000 16 0 210 -9871 0 avf
+s0456_re.dat 16 2000 16 0 2267 -19303 0 v1
+s0456_re.dat 16 2000 16 0 4677 1995 0 v2
+s0456_re.dat 16 2000 16 0 3155 -13023 0 v3
+s0456_re.dat 16 2000 16 0 2913 1309 0 v4
+s0456_re.dat 16 2000 16 0 916 -17020 0 v5
+s0456_re.dat 16 2000 16 0 -144 32111 0 v6
+s0456_re.xyz 16 2000 16 0 -532 -23897 0 vx
+s0456_re.xyz 16 2000 16 0 -255 3235 0 vy
+s0456_re.xyz 16 2000 16 0 -2045 -9631 0 vz
+
+# age: 70
+# sex: female
+# ECG date: 14/06/1996
+
+# Diagnose:
+# Reason for admission: Cardiomyopathy
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Bundle branch block, Dilated cardiomyopathy
+# Smoker: no
+# Number of coronary vessels involved: 0
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 10-Jun-96
+# Ventriculography: not available
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): No stenoses
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: Significantly decreased global LV contractility. Mitral regurgitation (grade 1-2), mild tricuspid regurgitation
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 10-Jun-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

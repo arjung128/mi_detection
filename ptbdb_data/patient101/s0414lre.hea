@@ -1,0 +1,68 @@
+s0414lre 15 1000 115200
+s0414lre.dat 16 2000 16 0 -4507 -31133 0 i
+s0414lre.dat 16 2000 16 0 -5609 -27812 0 ii
+s0414lre.dat 16 2000 16 0 -1102 4410 0 iii
+s0414lre.dat 16 2000 16 0 5058 29594 0 avr
+s0414lre.dat 16 2000 16 0 -1702 23262 0 avl
+s0414lre.dat 16 2000 16 0 -3356 28854 0 avf
+s0414lre.dat 16 2000 16 0 -753 9522 0 v1
+s0414lre.dat 16 2000 16 0 -689 -27631 0 v2
+s0414lre.dat 16 2000 16 0 -881 -24528 0 v3
+s0414lre.dat 16 2000 16 0 -1556 -11313 0 v4
+s0414lre.dat 16 2000 16 0 -1691 32242 0 v5
+s0414lre.dat 16 2000 16 0 -1674 -6527 0 v6
+s0414lre.xyz 16 2000 16 0 2 17742 0 vx
+s0414lre.xyz 16 2000 16 0 -405 15385 0 vy
+s0414lre.xyz 16 2000 16 0 39 23773 0 vz
+
+# age: 57
+# sex: male
+# ECG date: 22/01/1993
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-septal
+# Former infarction (localization): inferior
+# Additional diagnoses: Diabetes mellitus, Hyperlipoproteinemia Type IIa
+# Smoker: yes
+# Number of coronary vessels involved: 2
+# Infarction date (acute): 10-Jan-93
+# Previous infarction (1) date: 01-Jan-87
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 28-Jan-93
+# Ventriculography: Akinesia inferior wall, Hypokinesia antero-lateral wall and apex
+# Chest X-ray: Enlarged left heart, pulmonary edema
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): 70/39 cmH2O
+# Aorta (at rest) mean: 50 cmH2O
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA 70% at origin. 
+# Left coronary artery stenoses (RCX): Ramus marginalis sinister 40%
+# Right coronary artery stenoses (RCA): RCA 100% at origin of ramus marginalis dexter
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 10-Jan-93
+# Catheterization date: 28-Jan-93
+# Admission date: 11-Jan-93
+# Medication pre admission: Pindolol
+# Start lysis therapy (hh.mm): 04:30
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate Heparin Isosorbit-Dinitrate Molsidomin Furosemide Metoprolol Captopril Digitoxin Ca-antagonist
+# In hospital medication: Digitoxin Captopril Isosorbit-Dinitrate Triamteren+Hydrochlorothiazide Furosemide
+# Medication after discharge: Digitoxin Captopril Isosorbit-Dinitrate Indomethacin Amiloride+Chlorothiazide

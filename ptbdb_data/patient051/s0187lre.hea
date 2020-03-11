@@ -1,0 +1,68 @@
+s0187lre 15 1000 115200
+s0187lre.dat 16 2000 16 0 874 -17072 0 i
+s0187lre.dat 16 2000 16 0 275 -10103 0 ii
+s0187lre.dat 16 2000 16 0 -600 12653 0 iii
+s0187lre.dat 16 2000 16 0 -575 -21095 0 avr
+s0187lre.dat 16 2000 16 0 736 -6939 0 avl
+s0187lre.dat 16 2000 16 0 -162 -21550 0 avf
+s0187lre.dat 16 2000 16 0 470 -32541 0 v1
+s0187lre.dat 16 2000 16 0 -51 14298 0 v2
+s0187lre.dat 16 2000 16 0 -208 -30339 0 v3
+s0187lre.dat 16 2000 16 0 -862 -28576 0 v4
+s0187lre.dat 16 2000 16 0 -1007 23113 0 v5
+s0187lre.dat 16 2000 16 0 -1118 -5304 0 v6
+s0187lre.xyz 16 2000 16 0 -702 -4609 0 vx
+s0187lre.xyz 16 2000 16 0 -236 -31911 0 vy
+s0187lre.xyz 16 2000 16 0 954 17023 0 vz
+
+# age: 55
+# sex: female
+# ECG date: 27/05/1991
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-septal
+# Former infarction (localization): no
+# Additional diagnoses: no
+# Smoker: no
+# Number of coronary vessels involved: 0
+# Infarction date (acute): 17-May-91
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 24-May-91
+# Ventriculography: normal
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  130/70 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: 6 cmH2O
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 17-May-91
+# Catheterization date: 24-May-91
+# Admission date: 17-May-91
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 09:00
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate Heparin Atropin Triflupromazin ASA
+# In hospital medication: Isosorbit-Dinitrate ASA
+# Medication after discharge: ASA

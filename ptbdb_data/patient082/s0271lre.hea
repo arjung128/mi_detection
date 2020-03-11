@@ -1,0 +1,68 @@
+s0271lre 15 1000 115200
+s0271lre.dat 16 2000 16 0 -2758 13491 0 i
+s0271lre.dat 16 2000 16 0 -2985 4336 0 ii
+s0271lre.dat 16 2000 16 0 -228 -7140 0 iii
+s0271lre.dat 16 2000 16 0 2871 -24770 0 avr
+s0271lre.dat 16 2000 16 0 -1264 13436 0 avl
+s0271lre.dat 16 2000 16 0 -1606 -16021 0 avf
+s0271lre.dat 16 2000 16 0 -642 -18287 0 v1
+s0271lre.dat 16 2000 16 0 -1405 9124 0 v2
+s0271lre.dat 16 2000 16 0 -195 -24148 0 v3
+s0271lre.dat 16 2000 16 0 1648 -24931 0 v4
+s0271lre.dat 16 2000 16 0 6128 28785 0 v5
+s0271lre.dat 16 2000 16 0 164 5361 0 v6
+s0271lre.xyz 16 2000 16 0 150 27039 0 vx
+s0271lre.xyz 16 2000 16 0 -2492 -30615 0 vy
+s0271lre.xyz 16 2000 16 0 -1876 -547 0 vz
+
+# age: 65
+# sex: male
+# ECG date: 19/03/1992
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-septal
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension, Hypercholesterinemia, Chronic hepatitis
+# Smoker: no
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 16-Mar-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 24-Mar-92
+# Ventriculography: Akinesia antero-lateral wall, Dyskinesia apex
+# Chest X-ray: Globally enlarged heart, small pleural effusion (right-sided), Pulmonary venous congestion, postero-basal pneumonic infiltration
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA proximal 100%
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 16-Mar-92
+# Catheterization date: 24-Mar-92
+# Admission date: 16-Mar-92
+# Medication pre admission: Propranolol
+# Start lysis therapy (hh.mm): 13:27
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate Heparin Cephalosporin Metoprolol Furosemide ASA Ranitidin Diazepam
+# In hospital medication: Metoprolol ASA Ranitidin Diazepam Paracetamol+Codein
+# Medication after discharge: Isosorbit-Dinitrate ASA Molsidomin Captopril Furosemide

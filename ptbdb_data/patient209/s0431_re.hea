@@ -1,0 +1,68 @@
+s0431_re 15 1000 120012
+s0431_re.dat 16 2000 16 0 -207 -156 0 i
+s0431_re.dat 16 2000 16 0 -280 -17777 0 ii
+s0431_re.dat 16 2000 16 0 -72 21960 0 iii
+s0431_re.dat 16 2000 16 0 244 -25050 0 avr
+s0431_re.dat 16 2000 16 0 -67 -26107 0 avl
+s0431_re.dat 16 2000 16 0 -177 7707 0 avf
+s0431_re.dat 16 2000 16 0 -251 28041 0 v1
+s0431_re.dat 16 2000 16 0 -560 -15896 0 v2
+s0431_re.dat 16 2000 16 0 -72 -31021 0 v3
+s0431_re.dat 16 2000 16 0 -1569 27638 0 v4
+s0431_re.dat 16 2000 16 0 -1243 -28612 0 v5
+s0431_re.dat 16 2000 16 0 -1346 5578 0 v6
+s0431_re.xyz 16 2000 16 0 -819 24938 0 vx
+s0431_re.xyz 16 2000 16 0 -59 16430 0 vy
+s0431_re.xyz 16 2000 16 0 -79 22873 0 vz
+
+# age: 51
+# sex: male
+# ECG date: 07/03/1996
+
+# Diagnose:
+# Reason for admission: Bundle branch block
+# Acute infarction (localization): no
+# Former infarction (localization): unknown
+# Additional diagnoses: Epipharyngeal cancer, Cholesteatoma
+# Smoker: yes
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: no Echo
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

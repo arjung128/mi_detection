@@ -1,0 +1,68 @@
+s0426_re 15 1000 120012
+s0426_re.dat 16 2000 16 0 651 10788 0 i
+s0426_re.dat 16 2000 16 0 3589 -10496 0 ii
+s0426_re.dat 16 2000 16 0 2938 -28813 0 iii
+s0426_re.dat 16 2000 16 0 -2119 24728 0 avr
+s0426_re.dat 16 2000 16 0 -1143 -10455 0 avl
+s0426_re.dat 16 2000 16 0 3263 -19461 0 avf
+s0426_re.dat 16 2000 16 0 -1809 -22882 0 v1
+s0426_re.dat 16 2000 16 0 198 25392 0 v2
+s0426_re.dat 16 2000 16 0 3320 9181 0 v3
+s0426_re.dat 16 2000 16 0 46 31958 0 v4
+s0426_re.dat 16 2000 16 0 -671 22178 0 v5
+s0426_re.dat 16 2000 16 0 -969 8184 0 v6
+s0426_re.xyz 16 2000 16 0 108 -344 0 vx
+s0426_re.xyz 16 2000 16 0 2585 19095 0 vy
+s0426_re.xyz 16 2000 16 0 834 9569 0 vz
+
+# age: 63
+# sex: male
+# ECG date: 05/03/1996
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): no
+# Former infarction (localization): inferior
+# Additional diagnoses: Bundle branch block, Asthma bronchiale
+# Smoker: no
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: 01-Jan-84
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: Left atrium within upper limits (41mm), Mitral regurgitation (grade 1), Mitral valve prolaps.E/A 0.5. LV Hypertrophy
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: Ca-antagonist Theophyllin 5-Fluoro-uracil Mitomycin
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0206_re 15 1000 38400
+s0206_re.dat 16 2000 16 0 -989 3670 0 i
+s0206_re.dat 16 2000 16 0 -1645 -12431 0 ii
+s0206_re.dat 16 2000 16 0 -655 -16159 0 iii
+s0206_re.dat 16 2000 16 0 1317 -14796 0 avr
+s0206_re.dat 16 2000 16 0 -167 10053 0 avl
+s0206_re.dat 16 2000 16 0 -1149 4933 0 avf
+s0206_re.dat 16 2000 16 0 545 -8379 0 v1
+s0206_re.dat 16 2000 16 0 66 -3746 0 v2
+s0206_re.dat 16 2000 16 0 281 -18551 0 v3
+s0206_re.dat 16 2000 16 0 127 -14708 0 v4
+s0206_re.dat 16 2000 16 0 189 -514 0 v5
+s0206_re.dat 16 2000 16 0 156 14461 0 v6
+s0206_re.xyz 16 2000 16 0 188 2125 0 vx
+s0206_re.xyz 16 2000 16 0 -795 2787 0 vy
+s0206_re.xyz 16 2000 16 0 -119 7385 0 vz
+
+# age: 66
+# sex: female
+# ECG date: 14/08/1991
+
+# Diagnose:
+# Reason for admission: Dysrhythmia
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Atrial Fibrillation, Prosthetic valve in mitral position, Hyperlipoproteinemia Type IIa
+# Smoker: no
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

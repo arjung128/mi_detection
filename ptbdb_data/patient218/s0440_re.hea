@@ -1,0 +1,68 @@
+s0440_re 15 1000 120012
+s0440_re.dat 16 2000 16 0 -5837 -13930 0 i
+s0440_re.dat 16 2000 16 0 -6297 -9932 0 ii
+s0440_re.dat 16 2000 16 0 -460 11888 0 iii
+s0440_re.dat 16 2000 16 0 6066 17614 0 avr
+s0440_re.dat 16 2000 16 0 -2688 -13723 0 avl
+s0440_re.dat 16 2000 16 0 -3379 -2106 0 avf
+s0440_re.dat 16 2000 16 0 -2975 7084 0 v1
+s0440_re.dat 16 2000 16 0 -2836 -32237 0 v2
+s0440_re.dat 16 2000 16 0 -1531 21545 0 v3
+s0440_re.dat 16 2000 16 0 -2172 22920 0 v4
+s0440_re.dat 16 2000 16 0 -137 -29124 0 v5
+s0440_re.dat 16 2000 16 0 -1626 24650 0 v6
+s0440_re.xyz 16 2000 16 0 -878 -25769 0 vx
+s0440_re.xyz 16 2000 16 0 881 -27934 0 vy
+s0440_re.xyz 16 2000 16 0 -633 10291 0 vz
+
+# age: 70
+# sex: male
+# ECG date: 12/04/1996
+
+# Diagnose:
+# Reason for admission: Dysrhythmia
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Coronary artery disease, Arterial hypertension
+# Smoker: no
+# Number of coronary vessels involved: 1
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 11-Apr-96
+# Ventriculography: Enlarged left atrium. Hypokinesia apex and interventricular septum. Moderately impaired LV contractility
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA proximal 50%
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: Left atrium slightly enlarged (61mm). Good global contractility. Mild LV hypertrophy.Mitral regurgitation (grade 2)
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 11-Apr-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0109lre 15 1000 115200
+s0109lre.dat 16 2000 16 0 1895 20495 0 i
+s0109lre.dat 16 2000 16 0 -6585 10002 0 ii
+s0109lre.dat 16 2000 16 0 -8478 -29724 0 iii
+s0109lre.dat 16 2000 16 0 2344 4073 0 avr
+s0109lre.dat 16 2000 16 0 5187 -13588 0 avl
+s0109lre.dat 16 2000 16 0 -7531 -17997 0 avf
+s0109lre.dat 16 2000 16 0 -6028 -7908 0 v1
+s0109lre.dat 16 2000 16 0 -5702 -12192 0 v2
+s0109lre.dat 16 2000 16 0 -5323 3956 0 v3
+s0109lre.dat 16 2000 16 0 -6494 7535 0 v4
+s0109lre.dat 16 2000 16 0 -7226 -24324 0 v5
+s0109lre.dat 16 2000 16 0 -6850 14238 0 v6
+s0109lre.xyz 16 2000 16 0 489 27999 0 vx
+s0109lre.xyz 16 2000 16 0 -751 30699 0 vy
+s0109lre.xyz 16 2000 16 0 1762 -30990 0 vz
+
+# age: 49
+# sex: male
+# ECG date: 23/01/1991
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-septal
+# Former infarction (localization): no
+# Additional diagnoses: no
+# Smoker: yes
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): 22-Jan-91
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: not available
+# Chest X-ray: not available
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): not available
+# Left coronary artery stenoses (RCX): not available
+# Right coronary artery stenoses (RCA): not available
+# Echocardiography: not available
+
+# Therapy:
+# Infarction date: 22-Jan-91
+# Catheterization date: n/a
+# Admission date: 22-Jan-91
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): -
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0437_re 15 1000 120012
+s0437_re.dat 16 2000 16 0 640 9254 0 i
+s0437_re.dat 16 2000 16 0 -1826 6861 0 ii
+s0437_re.dat 16 2000 16 0 -2464 7994 0 iii
+s0437_re.dat 16 2000 16 0 592 6643 0 avr
+s0437_re.dat 16 2000 16 0 1552 25987 0 avl
+s0437_re.dat 16 2000 16 0 -2146 -25383 0 avf
+s0437_re.dat 16 2000 16 0 -2787 -16928 0 v1
+s0437_re.dat 16 2000 16 0 -5843 -26672 0 v2
+s0437_re.dat 16 2000 16 0 -6683 -16312 0 v3
+s0437_re.dat 16 2000 16 0 -7062 -590 0 v4
+s0437_re.dat 16 2000 16 0 -2916 28872 0 v5
+s0437_re.dat 16 2000 16 0 2795 -30080 0 v6
+s0437_re.xyz 16 2000 16 0 700 11099 0 vx
+s0437_re.xyz 16 2000 16 0 136 -21681 0 vy
+s0437_re.xyz 16 2000 16 0 3277 18075 0 vz
+
+# age: 82
+# sex: male
+# ECG date: 02/04/1996
+
+# Diagnose:
+# Reason for admission: Cardiomyopathy
+# Acute infarction (localization): no
+# Former infarction (localization): unknown
+# Additional diagnoses: Coronary artery disease, Postop. ACVB (3x), Dilated cardiomyopathy, Bundle branch block
+# Smoker: no
+# Number of coronary vessels involved: 3
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 25-Mar-96
+# Ventriculography: Dilated left ventricle, Poor contractility, Mitral regurgitation (grade 1-2)
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA 100% at origin, 
+# Left coronary artery stenoses (RCX): RCX  proximal 50%, distal 90%
+# Right coronary artery stenoses (RCA): Proximal verschlossen.
+# Echocardiography: no Echo
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 25-Mar-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

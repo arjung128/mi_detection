@@ -1,0 +1,68 @@
+s0434_re 15 1000 120012
+s0434_re.dat 16 2000 16 0 2185 5111 0 i
+s0434_re.dat 16 2000 16 0 475 -7947 0 ii
+s0434_re.dat 16 2000 16 0 -1711 28044 0 iii
+s0434_re.dat 16 2000 16 0 -1329 -20841 0 avr
+s0434_re.dat 16 2000 16 0 1948 -10894 0 avl
+s0434_re.dat 16 2000 16 0 -618 -27260 0 avf
+s0434_re.dat 16 2000 16 0 -2078 11415 0 v1
+s0434_re.dat 16 2000 16 0 -2273 -23382 0 v2
+s0434_re.dat 16 2000 16 0 -1384 -27036 0 v3
+s0434_re.dat 16 2000 16 0 -14 -28957 0 v4
+s0434_re.dat 16 2000 16 0 -26 846 0 v5
+s0434_re.dat 16 2000 16 0 426 -22357 0 v6
+s0434_re.xyz 16 2000 16 0 902 17854 0 vx
+s0434_re.xyz 16 2000 16 0 -783 -31641 0 vy
+s0434_re.xyz 16 2000 16 0 2786 26763 0 vz
+
+# age: 66
+# sex: male
+# ECG date: 18/03/1996
+
+# Diagnose:
+# Reason for admission: Hypertrophy
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Coronary artery disease, Post PTCA and Stent (RIVA), Arterial hypertension, Diabetes mellitus, Calcified aortic valve (mild stenosis), Hyperlipoproteinemia
+# Smoker: no
+# Number of coronary vessels involved: 2
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 14-Sep-95
+# Ventriculography: Calcified aortic valve. Normal sized left ventricle.Slightly hypertrophic LV myocardium. Hypokinesia apex
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA Stent 90%
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): Small atherosclerotic vessel, ramus ventricularis dexter 70% at origin
+# Echocardiography: no Echo
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 14-Sep-95
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,48 @@
+PhysioNet 
+Readme 
+Databases: 	PTB_MI_12leadECG_1000Hz
+PTB_MI_FrankECG_1000Hz 
+
+Creator: 
+Professor Michael Oeff 
+Department of Cardiology 
+Klinikum Benjamin Franklin 
+Free University of Berlin, Germany 
+Current address: 
+Department of Cardiology 
+Klinikum Brandenburg 
+14770 Brandenburg, Germany
+
+On behalf of: 
+Physikalisch-Technische Bundesanstalt 
+Institute Berlin 
+Abbestrasse 2-12 
+10587 Berlin, Germany 
+
+The databases contain either 549 conventional 12-lead resting ECGs or the corresponding measured Frank lead ECGs. 
+The ECGs are digitized at a sampling rate of 1000Hz (0.5 µV/LSB; 16 Bit ADC). 
+On special request this database may be available at sampling rates up to 10,000Hz.
+
+Up to five follow-up ECGs are available from subjects of the following diagnostic classes:
+
+Myocardial infarction 		148 pts. 
+Cardiomyopathy/Heart failure 	  18 pts. 
+Bundle branch block 			  15 pts. 
+Dysrhythmia 				  14 pts. 
+Myocardial hypertrophy 		    7 pts. 
+Valvular heart disease 		    6 pts. 
+Myocarditis 				    4 pts. 
+Miscellaneous 			    5 pts. 
+Healthy controls 			   54 individuals.
+
+Every patient is supplied with an information string containing age, gender, diagnosis, and where applicable, data on the medical history, medications and interventions, coronary artery pathology, ventriculography, echocardiography, and hemodynamics.
+
+Contact information: 
+Dr. Ralf Bousseljot 
+Dr. Dieter Kreiseler 
+Physikalisch-Technische Bundesanstalt 
+Labor 8.42 
+Abbestrasse 2-12 
+10587 Berlin, Germany 
+e-mail: Ralf.Bousseljot@ptb.de 
+e-mail; Dieter.Kreiseler@ptb.de 

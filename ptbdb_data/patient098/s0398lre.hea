@@ -1,0 +1,68 @@
+s0398lre 15 1000 115200
+s0398lre.dat 16 2000 16 0 -2619 9457 0 i
+s0398lre.dat 16 2000 16 0 -3449 29430 0 ii
+s0398lre.dat 16 2000 16 0 -828 -30107 0 iii
+s0398lre.dat 16 2000 16 0 3033 17018 0 avr
+s0398lre.dat 16 2000 16 0 -895 -18299 0 avl
+s0398lre.dat 16 2000 16 0 -2139 32520 0 avf
+s0398lre.dat 16 2000 16 0 470 -17963 0 v1
+s0398lre.dat 16 2000 16 0 -462 -26094 0 v2
+s0398lre.dat 16 2000 16 0 -381 9093 0 v3
+s0398lre.dat 16 2000 16 0 815 27753 0 v4
+s0398lre.dat 16 2000 16 0 -1096 29166 0 v5
+s0398lre.dat 16 2000 16 0 -1271 21136 0 v6
+s0398lre.xyz 16 2000 16 0 737 -1416 0 vx
+s0398lre.xyz 16 2000 16 0 900 -16169 0 vy
+s0398lre.xyz 16 2000 16 0 1318 29908 0 vz
+
+# age: 63
+# sex: female
+# ECG date: 08/01/1993
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): no
+# Additional diagnoses: Pulmonary fibrosis, Arterial hypertension, Hyperlipoproteinemia Type IIa
+# Smoker: no
+# Number of coronary vessels involved: 3
+# Infarction date (acute): 16-Dec-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 04-Jan-93
+# Ventriculography: normal
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  120/70 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): 158/84 cmH2O
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: 11 cmH2O
+# Left coronary artery stenoses (RIVA): Ramus diagonalis_1 and ramus diagonalis_2 100%.RIVA distal to ramus diagonalis_3 60-70%
+# Left coronary artery stenoses (RCX): RCX proximal 100%
+# Right coronary artery stenoses (RCA): RCA proximal to ramus marginalis dexter two serial stenoses of 70-80%. Ramis interventricularis posterior 50% at origin
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 16-Dec-92
+# Catheterization date: 04-Jan-93
+# Admission date: 16-Dec-92
+# Medication pre admission: Colestyramin Phenofibrate Isosorbit-Mononitrate Metoprolol ASA
+# Start lysis therapy (hh.mm): 11:45
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Heparin ASA Ca-antagonist Metoprolol Colestyramin Fibrate Isosorbit-Dinitrate Molsidomin
+# In hospital medication: Colestyramin Lovastatin Isosorbit-Mononitrate Metprolol ASA Molsidomin
+# Medication after discharge: Nitrate Isosorbit-Dinitrate Molsidomin Metoprolol Colestiramin Lovastatin

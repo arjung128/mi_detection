@@ -1,0 +1,68 @@
+s0251lre 15 1000 115200
+s0251lre.dat 16 2000 16 0 2131 19963 0 i
+s0251lre.dat 16 2000 16 0 245 -26595 0 ii
+s0251lre.dat 16 2000 16 0 -1887 -13574 0 iii
+s0251lre.dat 16 2000 16 0 -1187 1573 0 avr
+s0251lre.dat 16 2000 16 0 2009 13456 0 avl
+s0251lre.dat 16 2000 16 0 -821 -13775 0 avf
+s0251lre.dat 16 2000 16 0 522 -17498 0 v1
+s0251lre.dat 16 2000 16 0 1215 -7190 0 v2
+s0251lre.dat 16 2000 16 0 610 -12576 0 v3
+s0251lre.dat 16 2000 16 0 1134 -4251 0 v4
+s0251lre.dat 16 2000 16 0 930 -14441 0 v5
+s0251lre.dat 16 2000 16 0 942 -6275 0 v6
+s0251lre.xyz 16 2000 16 0 -1686 -2393 0 vx
+s0251lre.xyz 16 2000 16 0 -516 -26333 0 vy
+s0251lre.xyz 16 2000 16 0 -190 -15063 0 vz
+
+# age: 65
+# sex: male
+# ECG date: 12/02/1992
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension, Diabetes mellitus
+# Smoker: yes
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): 12-Feb-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: -
+# Ventriculography: not available
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  100/80 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): not available
+# Left coronary artery stenoses (RCX): not available
+# Right coronary artery stenoses (RCA): not available
+# Echocardiography: Hypokinesia/Akinesia of the distal apikal septum, apex, adjacent parts of the anterior and the entire inferioren wall
+
+# Therapy:
+# Infarction date: 12-Feb-92
+# Catheterization date: -
+# Admission date: 12-Feb-92
+# Medication pre admission: Glibenclamide Furosemide
+# Start lysis therapy (hh.mm): -
+# Lytic agent: n/a
+# Dosage (lytic agent): -
+# Additional medication: Nitrate Heparin ASA Digoxin Glibenclamide
+# In hospital medication: Isosorbit-Dinitrate Glibenclamide ASA Enalapril Digoxin
+# Medication after discharge: Enalapril Glibenclamide

@@ -1,0 +1,68 @@
+s0215lre 15 1000 115200
+s0215lre.dat 16 2000 16 0 -2699 18345 0 i
+s0215lre.dat 16 2000 16 0 -3265 22945 0 ii
+s0215lre.dat 16 2000 16 0 -565 -11209 0 iii
+s0215lre.dat 16 2000 16 0 2983 -28790 0 avr
+s0215lre.dat 16 2000 16 0 -1067 7172 0 avl
+s0215lre.dat 16 2000 16 0 -1915 22217 0 avf
+s0215lre.dat 16 2000 16 0 -550 10824 0 v1
+s0215lre.dat 16 2000 16 0 133 25366 0 v2
+s0215lre.dat 16 2000 16 0 -345 27233 0 v3
+s0215lre.dat 16 2000 16 0 1251 -28954 0 v4
+s0215lre.dat 16 2000 16 0 663 -11914 0 v5
+s0215lre.dat 16 2000 16 0 -173 4026 0 v6
+s0215lre.xyz 16 2000 16 0 743 17219 0 vx
+s0215lre.xyz 16 2000 16 0 -272 1145 0 vy
+s0215lre.xyz 16 2000 16 0 -268 15577 0 vz
+
+# age: 44
+# sex: female
+# ECG date: 06/09/1991
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): no
+# Additional diagnoses: no
+# Smoker: yes
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 12-May-91
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 21-May-91
+# Ventriculography: Akinesia inferior wall
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  140/85 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast):   21/8 cmH2O
+# Pulmonary artery pressure (at rest) (mean): 13 cmH2O
+# Pulmonary capillary wedge pressure (at rest): 7 cmH2O
+# Cardiac output (at rest): 6,1 l/min
+# Cardiac index (at rest): 3,86 l/min/sqrmBSA
+# Stroke volume index (at rest):  51.3 ml/beat
+# Pulmonary artery pressure (laod) (syst/diast):   48/22 cmH2O
+# Pulmonary artery pressure (laod) (mean): 37 cmH2O
+# Pulmonary capillary wedge pressure (load): 21 cmH2O
+# Cardiac output (load): 11,1 l/min
+# Cardiac index (load): 7,03 l/min/sqrmBSA
+# Stroke volume index (load): 62,1 ml/beat
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): No stenoses
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): RCA distal to ramus ventricularis dexter 75%
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 12-May-91
+# Catheterization date: 21-May-91
+# Admission date: 12-May-91
+# Medication pre admission: Estrogen 
+# Start lysis therapy (hh.mm): 15:00
+# Lytic agent: Urokinase
+# Dosage (lytic agent): 3 Mio IE
+# Additional medication: ASA Metoprolol Isosorbit-Mononitrate Triflupromazin
+# In hospital medication: Ca-antagonist
+# Medication after discharge: ASA Metoprolol Isosorbit-Mononitrate

@@ -1,0 +1,68 @@
+s0407lre 15 1000 115200
+s0407lre.dat 16 2000 16 0 -77 -4012 0 i
+s0407lre.dat 16 2000 16 0 -1615 28446 0 ii
+s0407lre.dat 16 2000 16 0 -1540 12170 0 iii
+s0407lre.dat 16 2000 16 0 845 -8442 0 avr
+s0407lre.dat 16 2000 16 0 730 5422 0 avl
+s0407lre.dat 16 2000 16 0 -1577 -26388 0 avf
+s0407lre.dat 16 2000 16 0 579 7194 0 v1
+s0407lre.dat 16 2000 16 0 959 19652 0 v2
+s0407lre.dat 16 2000 16 0 433 -6504 0 v3
+s0407lre.dat 16 2000 16 0 -493 30372 0 v4
+s0407lre.dat 16 2000 16 0 239 29239 0 v5
+s0407lre.dat 16 2000 16 0 171 4168 0 v6
+s0407lre.xyz 16 2000 16 0 588 -2218 0 vx
+s0407lre.xyz 16 2000 16 0 -847 17732 0 vy
+s0407lre.xyz 16 2000 16 0 -116 -6024 0 vz
+
+# age: 72
+# sex: female
+# ECG date: 15/01/1993
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): infero-lateral
+# Additional diagnoses: Arterial hypertension, Hyperlipemia, Peripheral atherosclerosis, Hyperuricemia, M. Basedow, Colon cancer
+# Smoker: no
+# Number of coronary vessels involved: 3
+# Infarction date (acute): 08-Jan-93
+# Previous infarction (1) date: 01-Jan-89
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 20-Jan-93
+# Ventriculography: Akinesia inferior, apikal und antero-lateral wall, Hypokinesia antero-basal wall segments
+# Chest X-ray: Moderately enlarged heart
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA distal to ramus diagonalis_2 100%
+# Left coronary artery stenoses (RCX): RCX proximal 100%
+# Right coronary artery stenoses (RCA): RCA distal to ramus ventricularis dexter 80%
+# Echocardiography: Normal LV dimensions. Akinesia of the inferior wall, the distal interventricular septums, apex and distal anterior wall
+
+# Therapy:
+# Infarction date: 08-Jan-93
+# Catheterization date: 20-Jan-93
+# Admission date: 08-Jan-93
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 05:43
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Heparin ASA Digoxin Furosemide Verapamil Enalapril Molsidomin Isosorbit-Dinitrate Glibenclamide Diazepam
+# In hospital medication: Digoxin ASA Isosorbit-Dinitrate Molsidomin Ca-antagonist Furosemide Enalapril Purin-antagonist Thiamazol
+# Medication after discharge: Digoxin Furosemide Xipamid Isosorbit-Dinitrate Molsidomin Ca-antagonist Enalapril Purin-antagonist ASA Thiamazol

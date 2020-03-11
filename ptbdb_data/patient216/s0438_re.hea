@@ -1,0 +1,68 @@
+s0438_re 15 1000 120012
+s0438_re.dat 16 2000 16 0 -1299 16150 0 i
+s0438_re.dat 16 2000 16 0 -6217 -21344 0 ii
+s0438_re.dat 16 2000 16 0 -4919 -25593 0 iii
+s0438_re.dat 16 2000 16 0 3758 2858 0 avr
+s0438_re.dat 16 2000 16 0 1810 -18230 0 avl
+s0438_re.dat 16 2000 16 0 -5568 14726 0 avf
+s0438_re.dat 16 2000 16 0 1866 -21466 0 v1
+s0438_re.dat 16 2000 16 0 1903 12201 0 v2
+s0438_re.dat 16 2000 16 0 1688 -13137 0 v3
+s0438_re.dat 16 2000 16 0 710 30407 0 v4
+s0438_re.dat 16 2000 16 0 634 -15736 0 v5
+s0438_re.dat 16 2000 16 0 655 -28163 0 v6
+s0438_re.xyz 16 2000 16 0 -427 -23902 0 vx
+s0438_re.xyz 16 2000 16 0 -4515 8763 0 vy
+s0438_re.xyz 16 2000 16 0 -177 -12576 0 vz
+
+# age: 73
+# sex: female
+# ECG date: 02/04/1996
+
+# Diagnose:
+# Reason for admission: Hypertrophy
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Renal insufficiency, Arterial hypertension, Rheumatoid arthritis
+# Smoker: no
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: Mild LV hypertrophy, good contractility, normal LV dimensions, Aortic regurgitation (grade 1), no pericardial effusion.
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0097lre 15 1000 115200
+s0097lre.dat 16 2000 16 0 -3725 -28332 0 i
+s0097lre.dat 16 2000 16 0 -4118 18785 0 ii
+s0097lre.dat 16 2000 16 0 -391 11267 0 iii
+s0097lre.dat 16 2000 16 0 3922 -27315 0 avr
+s0097lre.dat 16 2000 16 0 -1668 31596 0 avl
+s0097lre.dat 16 2000 16 0 -2254 7783 0 avf
+s0097lre.dat 16 2000 16 0 2947 -24542 0 v1
+s0097lre.dat 16 2000 16 0 4731 8235 0 v2
+s0097lre.dat 16 2000 16 0 5031 19947 0 v3
+s0097lre.dat 16 2000 16 0 4744 13442 0 v4
+s0097lre.dat 16 2000 16 0 3133 -10603 0 v5
+s0097lre.dat 16 2000 16 0 1432 -13324 0 v6
+s0097lre.xyz 16 2000 16 0 2313 -13423 0 vx
+s0097lre.xyz 16 2000 16 0 -4836 -1253 0 vy
+s0097lre.xyz 16 2000 16 0 1735 -22741 0 vz
+
+# age: 67
+# sex: male
+# ECG date: 14/01/1991
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): inferior
+# Former infarction (localization): inferior
+# Additional diagnoses: Megaloblastic anemia, Vit. B12 deficiency, ACVB (1x)
+# Smoker: yes
+# Number of coronary vessels involved: 2
+# Infarction date (acute): 29-Nov-90
+# Previous infarction (1) date: 01-Jan-81
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 07-Dec-90
+# Ventriculography: Hypokinesia infero-lateral and posterior wall
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  100/60 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): 104/62 cmH2O
+# Aorta (at rest) mean: 80 cmH2O
+# Left ventricular enddiastolic pressure: 14 cmH2O
+# Left coronary artery stenoses (RIVA): Ramus diagonalis_1 and ramus diagonalis_2 of RIVA each 50% at origin. Ramus diagonalis_2 subdivides into two vessels with one having a 30% stenosis
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): RCA 100% 1cm distal to origin
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 29-Nov-90
+# Catheterization date: 07-Dec-90
+# Admission date: 29-Nov-90
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 10:00
+# Lytic agent: Urokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Heparin ASA Isosorbit-Mononitrate Diazepam Theophyllin
+# In hospital medication: ASA Isosorbit-Mononitrate Furosemide Atropin
+# Medication after discharge: ASA Isosorbit-Mononitrate Isosorbit-Dinitrate Metoprolol

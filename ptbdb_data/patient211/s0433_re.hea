@@ -1,0 +1,68 @@
+s0433_re 15 1000 120012
+s0433_re.dat 16 2000 16 0 -953 17162 0 i
+s0433_re.dat 16 2000 16 0 8 32274 0 ii
+s0433_re.dat 16 2000 16 0 959 21861 0 iii
+s0433_re.dat 16 2000 16 0 472 8573 0 avr
+s0433_re.dat 16 2000 16 0 -956 -8945 0 avl
+s0433_re.dat 16 2000 16 0 485 9591 0 avf
+s0433_re.dat 16 2000 16 0 -2862 -8433 0 v1
+s0433_re.dat 16 2000 16 0 -4752 12182 0 v2
+s0433_re.dat 16 2000 16 0 -5118 8500 0 v3
+s0433_re.dat 16 2000 16 0 -3502 -18593 0 v4
+s0433_re.dat 16 2000 16 0 -623 -19752 0 v5
+s0433_re.dat 16 2000 16 0 -637 -7782 0 v6
+s0433_re.xyz 16 2000 16 0 -1123 -1212 0 vx
+s0433_re.xyz 16 2000 16 0 1370 23833 0 vy
+s0433_re.xyz 16 2000 16 0 1788 -18675 0 vz
+
+# age: 68
+# sex: male
+# ECG date: 18/03/1996
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): no
+# Former infarction (localization): anterior
+# Additional diagnoses: Periperal atherosclerosis
+# Smoker: yes
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: 01-Jan-94
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: no Echo
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: Captopril Digoxin Furosemide Isosorbit-Dinitrate Lovastatin ASA Glibenclamide
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

@@ -1,0 +1,68 @@
+s0441_re 15 1000 120012
+s0441_re.dat 16 2000 16 0 1758 21275 0 i
+s0441_re.dat 16 2000 16 0 -2470 29821 0 ii
+s0441_re.dat 16 2000 16 0 -4228 29206 0 iii
+s0441_re.dat 16 2000 16 0 355 25450 0 avr
+s0441_re.dat 16 2000 16 0 2993 -275 0 avl
+s0441_re.dat 16 2000 16 0 -3349 -4658 0 avf
+s0441_re.dat 16 2000 16 0 -5591 11657 0 v1
+s0441_re.dat 16 2000 16 0 -8435 -9769 0 v2
+s0441_re.dat 16 2000 16 0 -9162 10562 0 v3
+s0441_re.dat 16 2000 16 0 -7112 -16370 0 v4
+s0441_re.dat 16 2000 16 0 -1584 -27157 0 v5
+s0441_re.dat 16 2000 16 0 1187 21886 0 v6
+s0441_re.xyz 16 2000 16 0 1582 -19412 0 vx
+s0441_re.xyz 16 2000 16 0 -1569 -20876 0 vy
+s0441_re.xyz 16 2000 16 0 4776 -16955 0 vz
+
+# age: 66
+# sex: male
+# ECG date: 06/04/1996
+
+# Diagnose:
+# Reason for admission: Bundle branch block
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: Coronary artery disease (PTCA+Stent)
+# Smoker: no
+# Number of coronary vessels involved: 2
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 03-May-96
+# Ventriculography: not available
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA 70%
+# Left coronary artery stenoses (RCX): RCX 70%
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: LV hypertrophy (septum), good contractility, slightly enlarged left atrium, mitral reguritation (grade 1)
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: 03-May-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

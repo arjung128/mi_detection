@@ -1,0 +1,68 @@
+s0483_re 15 1000 120012
+s0483_re.dat 16 2000 16 0 -398 23618 0 i
+s0483_re.dat 16 2000 16 0 -1126 14201 0 ii
+s0483_re.dat 16 2000 16 0 -727 -31458 0 iii
+s0483_re.dat 16 2000 16 0 762 21208 0 avr
+s0483_re.dat 16 2000 16 0 164 -30977 0 avl
+s0483_re.dat 16 2000 16 0 -927 -11293 0 avf
+s0483_re.dat 16 2000 16 0 459 -20465 0 v1
+s0483_re.dat 16 2000 16 0 -660 17722 0 v2
+s0483_re.dat 16 2000 16 0 545 19623 0 v3
+s0483_re.dat 16 2000 16 0 -695 17517 0 v4
+s0483_re.dat 16 2000 16 0 230 -6241 0 v5
+s0483_re.dat 16 2000 16 0 1060 -19464 0 v6
+s0483_re.xyz 16 2000 16 0 761 31016 0 vx
+s0483_re.xyz 16 2000 16 0 -4443 9176 0 vy
+s0483_re.xyz 16 2000 16 0 -1397 15328 0 vz
+
+# age: 24
+# sex: male
+# ECG date: 14/02/1997
+
+# Diagnose:
+# Reason for admission: Healthy control
+# Acute infarction (localization): no
+# Former infarction (localization): no
+# Additional diagnoses: no
+# Smoker: unknown
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): n/a
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: n/a
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

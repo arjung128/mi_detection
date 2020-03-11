@@ -1,0 +1,68 @@
+s0446_re 15 1000 120012
+s0446_re.dat 16 2000 16 0 -4416 -25901 0 i
+s0446_re.dat 16 2000 16 0 -2751 7219 0 ii
+s0446_re.dat 16 2000 16 0 1664 -32675 0 iii
+s0446_re.dat 16 2000 16 0 3584 -29083 0 avr
+s0446_re.dat 16 2000 16 0 -3040 -29433 0 avl
+s0446_re.dat 16 2000 16 0 -542 -8341 0 avf
+s0446_re.dat 16 2000 16 0 -1302 30297 0 v1
+s0446_re.dat 16 2000 16 0 -639 -10683 0 v2
+s0446_re.dat 16 2000 16 0 -478 -10592 0 v3
+s0446_re.dat 16 2000 16 0 -1198 23354 0 v4
+s0446_re.dat 16 2000 16 0 -921 17196 0 v5
+s0446_re.dat 16 2000 16 0 -1488 11051 0 v6
+s0446_re.xyz 16 2000 16 0 345 11293 0 vx
+s0446_re.xyz 16 2000 16 0 -451 -5813 0 vy
+s0446_re.xyz 16 2000 16 0 102 30919 0 vz
+
+# age: 56
+# sex: male
+# ECG date: 04/06/1996
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-septal
+# Former infarction (localization): no
+# Additional diagnoses: Stent
+# Smoker: no
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 01-Jun-96
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 28-May-96
+# Ventriculography: not available
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): RIVA distal to ramus diagonalis_1 100%, PTCA and stent
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: Akinesia septal,anterior, anterolateral. Reduced contrctility
+
+# Therapy:
+# Infarction date: 27-May-96
+# Catheterization date: 28-May-96
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

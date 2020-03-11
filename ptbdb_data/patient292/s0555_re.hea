@@ -1,0 +1,68 @@
+s0555_re 15 1000 120012
+s0555_re.dat 16 2000 16 0 -1007 -25798 0 i
+s0555_re.dat 16 2000 16 0 3239 2780 0 ii
+s0555_re.dat 16 2000 16 0 4248 -23214 0 iii
+s0555_re.dat 16 2000 16 0 -1116 -21204 0 avr
+s0555_re.dat 16 2000 16 0 -2628 27698 0 avl
+s0555_re.dat 16 2000 16 0 3743 14260 0 avf
+s0555_re.dat 16 2000 16 0 -1590 10108 0 v1
+s0555_re.dat 16 2000 16 0 335 6218 0 v2
+s0555_re.dat 16 2000 16 0 -980 -13073 0 v3
+s0555_re.dat 16 2000 16 0 986 -32040 0 v4
+s0555_re.dat 16 2000 16 0 -1184 -6935 0 v5
+s0555_re.dat 16 2000 16 0 -3759 8511 0 v6
+s0555_re.xyz 16 2000 16 0 -1245 -13955 0 vx
+s0555_re.xyz 16 2000 16 0 1407 -10988 0 vy
+s0555_re.xyz 16 2000 16 0 63 17140 0 vz
+
+# age: 66
+# sex: male
+# ECG date: 03/06/1997
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-lateral
+# Former infarction (localization): no
+# Additional diagnoses: Arterial hypertension
+# Smoker: unknown
+# Number of coronary vessels involved: unknown
+# Infarction date (acute): 14-May-97
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: n/a
+# Ventriculography: n/a
+# Chest X-ray: n/a
+# Peripheral blood Pressure (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): n/a
+# Aorta (at rest) mean: n/a
+# Left ventricular enddiastolic pressure: n/a
+# Left coronary artery stenoses (RIVA): n/a
+# Left coronary artery stenoses (RCX): n/a
+# Right coronary artery stenoses (RCA): n/a
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 14-May-97
+# Catheterization date: n/a
+# Admission date: n/a
+# Medication pre admission: n/a
+# Start lysis therapy (hh.mm): n/a
+# Lytic agent: n/a
+# Dosage (lytic agent): n/a
+# Additional medication: n/a
+# In hospital medication: n/a
+# Medication after discharge: n/a

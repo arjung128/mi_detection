@@ -1,0 +1,68 @@
+s0397lre 15 1000 115200
+s0397lre.dat 16 2000 16 0 -8284 1286 0 i
+s0397lre.dat 16 2000 16 0 -9189 -7655 0 ii
+s0397lre.dat 16 2000 16 0 -905 -6654 0 iii
+s0397lre.dat 16 2000 16 0 8736 -21488 0 avr
+s0397lre.dat 16 2000 16 0 -3688 4864 0 avl
+s0397lre.dat 16 2000 16 0 -5048 32575 0 avf
+s0397lre.dat 16 2000 16 0 -2611 18165 0 v1
+s0397lre.dat 16 2000 16 0 -2590 19245 0 v2
+s0397lre.dat 16 2000 16 0 -2418 -8906 0 v3
+s0397lre.dat 16 2000 16 0 -2272 -8801 0 v4
+s0397lre.dat 16 2000 16 0 -2762 9435 0 v5
+s0397lre.dat 16 2000 16 0 -2593 -14847 0 v6
+s0397lre.xyz 16 2000 16 0 118 725 0 vx
+s0397lre.xyz 16 2000 16 0 -637 -4433 0 vy
+s0397lre.xyz 16 2000 16 0 -117 -23708 0 vz
+
+# age: 52
+# sex: male
+# ECG date: 08/01/1993
+
+# Diagnose:
+# Reason for admission: Myocardial infarction
+# Acute infarction (localization): antero-lateral
+# Former infarction (localization): no
+# Additional diagnoses: Hypercholesterinemia
+# Smoker: yes
+# Number of coronary vessels involved: 1
+# Infarction date (acute): 17-Dec-92
+# Previous infarction (1) date: n/a
+# Previous infarction (2) date: n/a
+
+# Hemodynamics:
+# Catheterization date: 30-Dec-92
+# Ventriculography: Hypokinesia antero-lateral wall, Akinesia apex
+# Chest X-ray: normal
+# Peripheral blood Pressure (syst/diast):  110/70 mmHg
+# Pulmonary artery pressure (at rest) (syst/diast): n/a
+# Pulmonary artery pressure (at rest) (mean): n/a
+# Pulmonary capillary wedge pressure (at rest): n/a
+# Cardiac output (at rest): n/a
+# Cardiac index (at rest): n/a
+# Stroke volume index (at rest): n/a
+# Pulmonary artery pressure (laod) (syst/diast): n/a
+# Pulmonary artery pressure (laod) (mean): n/a
+# Pulmonary capillary wedge pressure (load): n/a
+# Cardiac output (load): n/a
+# Cardiac index (load): n/a
+# Stroke volume index (load): n/a
+# Aorta (at rest) (syst/diast): 100/56 cmH2O
+# Aorta (at rest) mean: 63 cmH2O
+# Left ventricular enddiastolic pressure: pre ventriculography 21, post ventriculography 23 cmH2O
+# Left coronary artery stenoses (RIVA): RIVA distal to ramus diagonalis_1 70%
+# Left coronary artery stenoses (RCX): No stenoses
+# Right coronary artery stenoses (RCA): No stenoses
+# Echocardiography: n/a
+
+# Therapy:
+# Infarction date: 17-Dec-92
+# Catheterization date: 30-Dec-92
+# Admission date: 17-Dec-92
+# Medication pre admission: -
+# Start lysis therapy (hh.mm): 04:45
+# Lytic agent: Streptokinase
+# Dosage (lytic agent): 1.5 Mio IE
+# Additional medication: Nitrate ASA Furosemide Lovastatin Triflupromazin
+# In hospital medication: ASA Lovastatin
+# Medication after discharge: ASA Lovastatin
