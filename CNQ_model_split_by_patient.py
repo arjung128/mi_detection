@@ -188,12 +188,12 @@ def get_batch(batch_size, split='train'):
     
     if split == 'train':
         unhealthy_indices = random.sample(np.arange(len(data_unhealthy_train)), k=int(batch_size / 2))
-        healthy_indices = random.sample(np.arange(data_healthy_train), k=int(batch_size / 2))
+        healthy_indices = random.sample(np.arange(len(data_healthy_train)), k=int(batch_size / 2))
         unhealthy_batch = data_unhealthy_train[unhealthy_indices]
         healthy_batch = data_healthy_train[healthy_indices]
     elif split == 'val': 
         unhealthy_indices = random.sample(np.arange(len(data_unhealthy_val)), k=int(batch_size / 2))
-        healthy_indices = random.sample(np.arange(data_healthy_val), k=int(batch_size / 2))
+        healthy_indices = random.sample(np.arange(len(data_healthy_val)), k=int(batch_size / 2))
         unhealthy_batch = data_unhealthy_val[unhealthy_indices]
         healthy_batch = data_healthy_val[healthy_indices]
     
@@ -299,7 +299,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
 criterion = nn.BCELoss()
 
 # training loop
-writer = SummaryWriter()
+writer = SummaryWriter('/home/arjung2/mi_detection/runs')
 
 num_iters = 150000
 batch_size = 10

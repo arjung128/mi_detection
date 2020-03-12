@@ -1,0 +1,12 @@
+#!/bin/bash
+
+#SBATCH --job-name="mi_detection"
+#SBATCH --output="mi_detection.%j.%N.out"
+#SBATCH --error="mi_detection.%j.%N.err"
+#SBATCH --partition=gpux1
+
+# module load wmlce
+conda activate py27
+conda env list
+# python --version
+python CNQ_model_split_by_patient.py
