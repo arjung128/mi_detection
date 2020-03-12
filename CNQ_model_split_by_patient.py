@@ -17,7 +17,8 @@ from torch.utils.tensorboard import SummaryWriter
 # channel_2 = sys.argv[2]
 channel_1 = 'v6'
 channel_2 = 'vz'
-seed_num = 37
+# seed_num = 37
+seed_num = sys.argv[1]
 
 print(seed_num, channel_1, channel_2)
 
@@ -299,9 +300,9 @@ optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
 criterion = nn.BCELoss()
 
 # training loop
-writer = SummaryWriter('/home/arjung2/mi_detection/runs')
+writer = SummaryWriter('/home/arjun/mi_detection/runs/runs_' + str(seed_num))
 
-num_iters = 150000
+num_iters = 30000
 batch_size = 10
 
 acc_values = []
@@ -363,7 +364,7 @@ for iters in range(num_iters):
 
             acc_values_train.append((avg_acc / iterations))
             writer.add_scalar('Accuracy/train', (avg_acc / iterations), iters)
-
+    '''
     if iters%1000 == 0 and iters != 0:
 
         torch.save(model.state_dict(), 'CNQ_model.pth')
@@ -375,7 +376,7 @@ for iters in range(num_iters):
         plt.plot(acc_values_train, color="red")
         plt.grid()
         fig.savefig("CNQ_model.jpeg")
-
+    '''
 plt.close()
 
 # with torch.no_grad():
