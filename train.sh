@@ -7,53 +7,64 @@
 # cd $PBS_O_WORKDIR
 # source activate python2.7
 
-python CNQ_model_split_by_patient.py 1
-python CNQ_model_split_by_patient.py 2
-python CNQ_model_split_by_patient.py 3
-python CNQ_model_split_by_patient.py 4
-python CNQ_model_split_by_patient.py 5
-python CNQ_model_split_by_patient.py 6
-python CNQ_model_split_by_patient.py 7
-python CNQ_model_split_by_patient.py 8
-python CNQ_model_split_by_patient.py 9
-python CNQ_model_split_by_patient.py 10
-python CNQ_model_split_by_patient.py 11
-python CNQ_model_split_by_patient.py 12
-python CNQ_model_split_by_patient.py 13
-python CNQ_model_split_by_patient.py 14
-python CNQ_model_split_by_patient.py 15
-python CNQ_model_split_by_patient.py 16
-python CNQ_model_split_by_patient.py 17
-python CNQ_model_split_by_patient.py 18
-python CNQ_model_split_by_patient.py 19
-python CNQ_model_split_by_patient.py 20
-python CNQ_model_split_by_patient.py 21
-python CNQ_model_split_by_patient.py 22
-python CNQ_model_split_by_patient.py 23
-python CNQ_model_split_by_patient.py 24
-python CNQ_model_split_by_patient.py 25
-python CNQ_model_split_by_patient.py 26
-python CNQ_model_split_by_patient.py 27
-python CNQ_model_split_by_patient.py 28
-python CNQ_model_split_by_patient.py 29
-python CNQ_model_split_by_patient.py 30
-python CNQ_model_split_by_patient.py 31
-python CNQ_model_split_by_patient.py 32
-python CNQ_model_split_by_patient.py 33
-python CNQ_model_split_by_patient.py 34
-python CNQ_model_split_by_patient.py 35
-python CNQ_model_split_by_patient.py 36
-python CNQ_model_split_by_patient.py 37
-python CNQ_model_split_by_patient.py 38
-python CNQ_model_split_by_patient.py 39
-python CNQ_model_split_by_patient.py 40
-python CNQ_model_split_by_patient.py 41
-python CNQ_model_split_by_patient.py 42
-python CNQ_model_split_by_patient.py 43
-python CNQ_model_split_by_patient.py 44
-python CNQ_model_split_by_patient.py 45
-python CNQ_model_split_by_patient.py 46
-python CNQ_model_split_by_patient.py 47
-python CNQ_model_split_by_patient.py 48
-python CNQ_model_split_by_patient.py 49
-python CNQ_model_split_by_patient.py 50
+# 5, 10, 11, 13, 23, 30, 36, 39, 41, 46, 49
+
+python CNQ_model_split_by_patient.py 5 0
+python CNQ_model_split_by_patient.py 5 1
+python CNQ_model_split_by_patient.py 5 2
+python CNQ_model_split_by_patient.py 5 3
+python CNQ_model_split_by_patient.py 5 4
+python CNQ_model_split_by_patient.py 10 0
+python CNQ_model_split_by_patient.py 10 1
+python CNQ_model_split_by_patient.py 10 2
+python CNQ_model_split_by_patient.py 10 3
+python CNQ_model_split_by_patient.py 10 4
+python CNQ_model_split_by_patient.py 11 0
+python CNQ_model_split_by_patient.py 11 1
+python CNQ_model_split_by_patient.py 11 2
+python CNQ_model_split_by_patient.py 11 3
+python CNQ_model_split_by_patient.py 11 4
+python CNQ_model_split_by_patient.py 13 0
+python CNQ_model_split_by_patient.py 13 1
+python CNQ_model_split_by_patient.py 13 2
+python CNQ_model_split_by_patient.py 13 3
+python CNQ_model_split_by_patient.py 13 4
+python CNQ_model_split_by_patient.py 23 0
+python CNQ_model_split_by_patient.py 23 1
+python CNQ_model_split_by_patient.py 23 2
+python CNQ_model_split_by_patient.py 23 3
+python CNQ_model_split_by_patient.py 23 4
+python CNQ_model_split_by_patient.py 30 0
+python CNQ_model_split_by_patient.py 30 1
+python CNQ_model_split_by_patient.py 30 2
+python CNQ_model_split_by_patient.py 30 3
+python CNQ_model_split_by_patient.py 30 4
+python CNQ_model_split_by_patient.py 36 0
+python CNQ_model_split_by_patient.py 36 1
+python CNQ_model_split_by_patient.py 36 2
+python CNQ_model_split_by_patient.py 36 3
+python CNQ_model_split_by_patient.py 36 4
+python CNQ_model_split_by_patient.py 39 0
+python CNQ_model_split_by_patient.py 39 1
+python CNQ_model_split_by_patient.py 39 2
+python CNQ_model_split_by_patient.py 39 3
+python CNQ_model_split_by_patient.py 39 4
+python CNQ_model_split_by_patient.py 41 0
+python CNQ_model_split_by_patient.py 41 1
+python CNQ_model_split_by_patient.py 41 2
+python CNQ_model_split_by_patient.py 41 3
+python CNQ_model_split_by_patient.py 41 4
+python CNQ_model_split_by_patient.py 46 0
+python CNQ_model_split_by_patient.py 46 1
+python CNQ_model_split_by_patient.py 46 2
+python CNQ_model_split_by_patient.py 46 3
+python CNQ_model_split_by_patient.py 46 4
+python CNQ_model_split_by_patient.py 49 0
+python CNQ_model_split_by_patient.py 49 1
+python CNQ_model_split_by_patient.py 49 2
+python CNQ_model_split_by_patient.py 49 3
+python CNQ_model_split_by_patient.py 49 4
+
+
+
+

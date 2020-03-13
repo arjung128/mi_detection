@@ -19,8 +19,8 @@ channel_1 = 'v6'
 channel_2 = 'vz'
 # seed_num = 37
 seed_num = sys.argv[1]
-
-print(seed_num, channel_1, channel_2)
+run_num = sys.argv[2]
+print(seed_num, run_num)
 
 # load real data (ptbdb)
 with open('ptbdb_data/RECORDS') as fp:  
@@ -300,7 +300,7 @@ optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
 criterion = nn.BCELoss()
 
 # training loop
-writer = SummaryWriter('/home/arjun/mi_detection/runs/runs_' + str(seed_num))
+writer = SummaryWriter('/home/arjun/mi_detection/runs/runs_' + str(seed_num) + '_' + str(run_num))
 
 num_iters = 30000
 batch_size = 10
