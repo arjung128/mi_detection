@@ -304,7 +304,8 @@ criterion = nn.BCELoss()
 # training loop
 writer = SummaryWriter('/home/arjun/mi_detection/runs/runs_' + str(seed_num) + '_' + str(run_num) + '_' + str(channel_1) + '_' + str(channel_2))
 
-num_iters = 30000
+# num_iters = 30000
+num_iters = 35000
 batch_size = 10
 
 acc_values = []
