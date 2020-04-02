@@ -20,9 +20,12 @@ from torch.utils.tensorboard import SummaryWriter
 # seed_num = 37
 seed_num = sys.argv[1]
 run_num = sys.argv[2]
-channel_1 = sys.argv[3]
-channel_2 = sys.argv[4]
-channel_3 = sys.argv[5]
+# channel_1 = sys.argv[3]
+# channel_2 = sys.argv[4]
+# channel_3 = sys.argv[5]
+channel_1 = 'v6'
+channel_2 = 'vz'
+channel_3 = 'ii'
 print(seed_num, run_num, channel_1, channel_2, channel_3)
 
 # load real data (ptbdb)
@@ -312,7 +315,8 @@ criterion = nn.BCELoss()
 writer = SummaryWriter('/home/arjun/mi_detection/runs_3_channel/runs_' + str(seed_num) + '_' + str(run_num) + '_' + str(channel_1) + '_' + str(channel_2) + '_' + str(channel_3))
 
 # num_iters = 30000
-num_iters = 35000
+# num_iters = 35000
+num_iters = 50000
 batch_size = 10
 
 acc_values = []
