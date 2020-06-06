@@ -24,11 +24,12 @@ flags.DEFINE_integer('batch_size', 10, 'batch_size')
 flags.DEFINE_integer('gpu', 0, 'Which GPU to use.')
 flags.DEFINE_integer('channel', 0, 'channel #1')
 flags.DEFINE_integer('run', 0, 'run #')
+flags.DEFINE_integer('seed', 0, 'seed #')
 
 '''
 TODO:
-- seed (for splitting) (for single-wise)
-- split into files
+- identify best seed using multiple runs
+- identify best channels using best seeds (multiple runs)
 
 - pairwise, triplet-wise channels
 - split by patient
@@ -44,6 +45,9 @@ class StaffIIIDataset(Dataset):
         
         with open(record_path) as fp:  
             self.lines = fp.readlines()
+            
+        # shuffle with seed
+        self.lines = random.Random(FLAGS.seed).shuffle(self.lines)
                     
         if self.train:
             self.lines = self.lines[:int(0.8*len(self.lines))]
@@ -270,12 +274,12 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
-    scheduler = StepLR(optimizer, step_size=30, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=45, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_channel_'+ str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_channel_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     iteration = 0
 
-    for epoch in range(1, 90):
+    for epoch in range(1, 60):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
         scheduler.step()
