@@ -17,9 +17,9 @@ declare -a seeds=("39")
 
 
 # FIND BEST SEED
-for ((seed=0; run<10; seed+=1)); do
+for ((seed=0; seed<10; seed+=1)); do
     for ((run=0; run<3; run+=1)); do
         echo $seed $run
-        python train_staff.py --channel=1 --run=$run --seed=$seed
+        python train_staff.py --channel=7 --run=$run --seed=$seed
     done
 done

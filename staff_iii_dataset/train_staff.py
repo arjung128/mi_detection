@@ -20,7 +20,7 @@ from absl import app
 from absl import flags
 
 FLAGS = flags.FLAGS
-flags.DEFINE_integer('batch_size', 10, 'batch_size')
+flags.DEFINE_integer('batch_size', 16, 'batch_size')
 flags.DEFINE_integer('gpu', 0, 'Which GPU to use.')
 flags.DEFINE_integer('channel', 0, 'channel #1')
 flags.DEFINE_integer('run', 0, 'run #')
@@ -47,7 +47,8 @@ class StaffIIIDataset(Dataset):
             self.lines = fp.readlines()
             
         # shuffle with seed
-        self.lines = random.Random(FLAGS.seed).shuffle(self.lines)
+        np.random.seed(int(FLAGS.seed))
+        np.random.shuffle(self.lines)
                     
         if self.train:
             self.lines = self.lines[:int(0.8*len(self.lines))]
@@ -193,6 +194,11 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
             writer.add_scalar('Accuracy/val', val_acc, iteration_*print_every)
             writer.add_scalar('Loss/val', val_loss, iteration_*print_every)
             
+            np_file_path = 'staff_seed_results.npy'
+            np_arr = np.load(np_file_path)
+            np_arr[FLAGS.seed][FLAGS.run] = val_acc
+            np.save(np_file_path, np_arr)
+            
             # lr
             lr = optimizer.param_groups[0]['lr']
             writer.add_scalar('Learning_Rate', lr, iteration_*print_every)
@@ -276,7 +282,7 @@ def main(argv):
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
     scheduler = StepLR(optimizer, step_size=45, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_channel_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     iteration = 0
 
     for epoch in range(1, 60):
