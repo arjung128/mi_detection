@@ -17,8 +17,8 @@ from torch.utils.tensorboard import SummaryWriter
 # channel_1 = sys.argv[1]
 # channel_2 = sys.argv[2]
 # seed_num = 37
-channel_1 = "i"
-writer = SummaryWriter('/home/arjung2/mi_detection/runs_staff/runs_staff_new_'+ str(channel_1))
+channel_1 = "ii"
+writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_'+ str(channel_1))
 
 print(channel_1)
 
@@ -320,7 +320,7 @@ for iters in range(num_iters):
                 avg_acc += acc
 
             acc_values.append((avg_acc / iterations))
-            writer.add_scalar('Accuracy/val', (avg_acc / iterations), iters/100)
+            writer.add_scalar('Accuracy/val', float(avg_acc / iterations) / 100, iters/100)
 
             # train_set
             iterations = 100
@@ -339,7 +339,7 @@ for iters in range(num_iters):
                 avg_acc += acc
 
             acc_values_train.append((avg_acc / iterations))
-            writer.add_scalar('Accuracy/train', (avg_acc / iterations), iters/100)
+            writer.add_scalar('Accuracy/train', float(avg_acc / iterations) / 100, iters/100)
 
 #     if iters%1000 == 0 and iters != 0:
 

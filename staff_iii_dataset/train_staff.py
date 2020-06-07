@@ -49,8 +49,8 @@ class StaffIIIDataset(Dataset):
             self.lines = fp.readlines()
             
         # shuffle with seed
-        np.random.seed(int(FLAGS.seed))
-        np.random.shuffle(self.lines)
+        # np.random.seed(int(FLAGS.seed))
+        # np.random.shuffle(self.lines)
                     
         if self.train:
             self.lines = self.lines[:int(0.8*len(self.lines))]
@@ -126,6 +126,7 @@ class ConvNetQuake(nn.Module):
         self.conv8 = nn.Conv1d(in_channels=32, out_channels=32, kernel_size=3, stride=2, padding=1)
         self.linear1 = nn.Linear(1280, 128)
         self.linear2 = nn.Linear(128, 1)
+        self.linear3 = nn.Linear(40000, 1)
         self.sigmoid = nn.Sigmoid()
         self.bn1 = nn.BatchNorm1d(32)
         self.bn2 = nn.BatchNorm1d(32)
@@ -140,14 +141,19 @@ class ConvNetQuake(nn.Module):
         x = self.bn1(F.relu((self.conv1(x))))
         x = self.bn2(F.relu((self.conv2(x))))
         x = self.bn3(F.relu((self.conv3(x))))
+        '''
         x = self.bn4(F.relu((self.conv4(x))))
         x = self.bn5(F.relu((self.conv5(x))))
         x = self.bn6(F.relu((self.conv6(x))))
         x = self.bn7(F.relu((self.conv7(x))))
         x = self.bn8(F.relu((self.conv8(x))))
+        '''
         x = torch.reshape(x, (FLAGS.batch_size, -1))
+        '''
         x = self.linear1(x)
         x = self.linear2(x)
+        '''
+        x = self.linear3(x)
         x = self.sigmoid(x)     
         return x
 
@@ -282,12 +288,13 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
-    scheduler = StepLR(optimizer, step_size=60, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=120, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug')
+    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     iteration = 0
 
-    for epoch in range(1, 75):
+    for epoch in range(1, 180):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
         scheduler.step()
