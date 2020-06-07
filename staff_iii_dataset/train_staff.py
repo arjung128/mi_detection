@@ -29,6 +29,7 @@ flags.DEFINE_integer('seed', 0, 'seed #')
 '''
 TODO:
 - identify best seed using multiple runs
+   - reproduce original, no seed, results? clean up other training script and see what results it gives?
    - to combat overfitting for a fair comparison, try a shallower network?
 - identify best channels using best seeds (multiple runs)
 
