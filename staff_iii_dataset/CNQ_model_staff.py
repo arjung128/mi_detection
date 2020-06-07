@@ -18,7 +18,7 @@ from torch.utils.tensorboard import SummaryWriter
 # channel_2 = sys.argv[2]
 # seed_num = 37
 channel_1 = "ii"
-writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_'+ str(channel_1))
+writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_CNQ_'+ str(channel_1))
 
 print(channel_1)
 
@@ -56,13 +56,13 @@ data_unhealthy = []
 for file in files_unhealthy:
     data_v4, _ = wfdb.rdsamp("staff-iii-database-1.0.0/" + file[:-1])
     # data = [data_v4.flatten()]
-    data = (data_v4[:, 6]).flatten()
+    data = (data_v4[:, 7]).flatten()
     data_unhealthy.append(data)
 data_healthy = []
 for file in files_healthy:
     data_v4, _ = wfdb.rdsamp("staff-iii-database-1.0.0/" + file[:-1])
     # data = [data_v4.flatten()]
-    data = (data_v4[:, 6]).flatten()
+    data = (data_v4[:, 7]).flatten()
     data_healthy.append(data)
     
 '''
@@ -274,7 +274,7 @@ criterion = nn.BCELoss()
 
 # training loop
 
-num_iters = 150000
+num_iters = 1500000
 batch_size = 10
 
 acc_values = []

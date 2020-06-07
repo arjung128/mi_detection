@@ -20,7 +20,7 @@ from absl import app
 from absl import flags
 
 FLAGS = flags.FLAGS
-flags.DEFINE_integer('batch_size', 16, 'batch_size')
+flags.DEFINE_integer('batch_size', 10, 'batch_size')
 flags.DEFINE_integer('gpu', 0, 'Which GPU to use.')
 flags.DEFINE_integer('channel', 0, 'channel #1')
 flags.DEFINE_integer('run', 0, 'run #')
@@ -80,24 +80,19 @@ class StaffIIIDataset(Dataset):
                 continue
             
             data, _ = wfdb.rdsamp("staff-iii-database-1.0.0/" + str(file_name))
-            data = np.array(data) # (300000, 9)
+            data = (data[:, self.channel]).flatten()
 
             # pick an arbitrary window
-            start = random.choice(np.arange((data.shape[0]) - self.length)) 
-            data = data[start:start+self.length, :]
-
-            # extract relevant channels
-            data = data[:, self.channel]
+            start = random.choice(np.arange(len(data) - self.length))
+            data = minmax_scale(data[start:start+self.length])
+            data = np.array(data)
 
             if np.isnan(np.sum(data)):
                 index = np.random.randint(0, len(self.lines))
             else:
                 break
         
-        # normalize
-        data = minmax_scale(data)
-        
-        # unsqueeze
+        # unsqueeze (since input_channels == 1)
         data = data[np.newaxis, ...]
 
         if self.labels[patient_id] != 'no':
@@ -168,21 +163,19 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
     train_acc = 0
     train_loss = 0
    
-    optimizer.zero_grad()
- 
     for batch_idx, (data, y) in enumerate(train_loader):
         
         data, y = data.to(device).float(), y.to(device).float()
-    
+        y = torch.unsqueeze(y, 1)   
+ 
         y_pred = model(data)
         
         loss = criterion(y_pred, y)
         train_loss += loss.item()
 
+        optimizer.zero_grad()
         loss.backward()
-        if (batch_idx+1)%(4) == 0:
-            optimizer.step()
-            optimizer.zero_grad()
+        optimizer.step()
             
         pred = y_pred.round()
         train_acc += pred.eq(y.view_as(pred)).sum().item()
@@ -230,6 +223,7 @@ def validate(model, device, val_loader, print_every):
         for batch_idx, (data, y) in enumerate(val_loader):
 
             data, y = data.to(device).float(), y.to(device).float()
+            y = torch.unsqueeze(y, 1)
 
             y_pred = model(data)
 
@@ -287,10 +281,10 @@ def main(argv):
     device = torch.device("cuda")
     model = ConvNetQuake().to(device)
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
+    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-6)
     scheduler = StepLR(optimizer, step_size=120, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug')
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     iteration = 0
 
