@@ -287,13 +287,14 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
-    scheduler = StepLR(optimizer, step_size=25, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
+    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]))
     iteration = 0
 
-    for epoch in range(1, 100):
+    for epoch in range(1, 625):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
         scheduler.step()
