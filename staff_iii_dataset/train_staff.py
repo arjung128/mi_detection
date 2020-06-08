@@ -28,9 +28,14 @@ flags.DEFINE_integer('seed', 0, 'seed #')
 
 '''
 TODO:
+- why doesn't train_acc go to 99% (when it seems to for other train script)
+   - larger network?
+   - see if 0s is why other model does "better"
+- combat overfitting
+   - weight decay
+   - dropout
+
 - identify best seed using multiple runs
-   - reproduce original, no seed, results? clean up other training script and see what results it gives?
-   - to combat overfitting for a fair comparison, try a shallower network?
 - identify best channels using best seeds (multiple runs)
 
 - pairwise, triplet-wise channels
@@ -49,8 +54,8 @@ class StaffIIIDataset(Dataset):
             self.lines = fp.readlines()
             
         # shuffle with seed
-        # np.random.seed(int(FLAGS.seed))
-        # np.random.shuffle(self.lines)
+        np.random.seed(int(FLAGS.seed))
+        np.random.shuffle(self.lines)
                     
         if self.train:
             self.lines = self.lines[:int(0.8*len(self.lines))]
@@ -281,14 +286,14 @@ def main(argv):
     device = torch.device("cuda")
     model = ConvNetQuake().to(device)
 
-    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-6)
-    scheduler = StepLR(optimizer, step_size=120, gamma=0.1)
+    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
+    scheduler = StepLR(optimizer, step_size=25, gamma=0.1)
 
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2')
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     iteration = 0
 
-    for epoch in range(1, 180):
+    for epoch in range(1, 100):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
         scheduler.step()
