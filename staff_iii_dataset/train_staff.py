@@ -94,6 +94,9 @@ class StaffIIIDataset(Dataset):
 
             if np.isnan(np.sum(data)):
                 index = np.random.randint(0, len(self.lines))
+                # TRYING TO REPLICATE RESULTS OF OTHER TRAIN SCRIPT
+                # data = torch.zeros_like(torch.from_numpy(data))
+                # break
             else:
                 break
         
@@ -200,10 +203,10 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
             writer.add_scalar('Accuracy/val', val_acc, iteration_*print_every)
             writer.add_scalar('Loss/val', val_loss, iteration_*print_every)
             
-            np_file_path = 'staff_seed_results.npy'
-            np_arr = np.load(np_file_path)
-            np_arr[FLAGS.seed][FLAGS.run] = val_acc
-            np.save(np_file_path, np_arr)
+            # np_file_path = 'staff_seed_results.npy'
+            # np_arr = np.load(np_file_path)
+            # np_arr[FLAGS.seed][FLAGS.run] = val_acc
+            # np.save(np_file_path, np_arr)
             
             # lr
             lr = optimizer.param_groups[0]['lr']
@@ -287,14 +290,19 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
-    scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
+    # scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
+    # step_size = 125 worked well, trying 250 now -- changed from 125
+    # loss was still decreasing at 250, increasing it to 25000
+    scheduler = StepLR(optimizer, step_size=25000, gamma=0.1)
 
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
-    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]))
+    #  writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]) + '_noDecay')
     iteration = 0
 
-    for epoch in range(1, 625):
+    # changed from 625
+    # changed from 1250
+    for epoch in range(1, 25000):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
         scheduler.step()

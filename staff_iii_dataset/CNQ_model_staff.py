@@ -17,8 +17,8 @@ from torch.utils.tensorboard import SummaryWriter
 # channel_1 = sys.argv[1]
 # channel_2 = sys.argv[2]
 # seed_num = 37
-channel_1 = "ii"
-writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_CNQ_'+ str(channel_1))
+channel_1 = "v6"
+writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channel_1) + '_CNQ')
 
 print(channel_1)
 
@@ -56,13 +56,13 @@ data_unhealthy = []
 for file in files_unhealthy:
     data_v4, _ = wfdb.rdsamp("staff-iii-database-1.0.0/" + file[:-1])
     # data = [data_v4.flatten()]
-    data = (data_v4[:, 7]).flatten()
+    data = (data_v4[:, 5]).flatten()
     data_unhealthy.append(data)
 data_healthy = []
 for file in files_healthy:
     data_v4, _ = wfdb.rdsamp("staff-iii-database-1.0.0/" + file[:-1])
     # data = [data_v4.flatten()]
-    data = (data_v4[:, 7]).flatten()
+    data = (data_v4[:, 5]).flatten()
     data_healthy.append(data)
     
 '''
