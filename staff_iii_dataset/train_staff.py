@@ -25,6 +25,7 @@ flags.DEFINE_integer('gpu', 0, 'Which GPU to use.')
 flags.DEFINE_integer('channel', 0, 'channel #1')
 flags.DEFINE_integer('run', 0, 'run #')
 flags.DEFINE_integer('seed', 0, 'seed #')
+flags.DEFINE_string('logdir', 'debug', 'Name of tensorboard logdir')
 
 '''
 TODO:
@@ -214,6 +215,11 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
 
             train_loss = 0
             train_acc = 0
+
+            # save model
+            if iteration_ % 10000 == 0:
+                file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/', FLAGS.logdir, 'model-{:d}.pth'.format(iteration_))
+                torch.save(model.state_dict(), file_name)
     
     return iteration_
 
@@ -289,15 +295,18 @@ def main(argv):
     device = torch.device("cuda")
     model = ConvNetQuake().to(device)
 
+    # runs_v5_noDecay had lr=1.0e-4. experimenting as this might be too low
     optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
     # scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
     # step_size = 125 worked well, trying 250 now -- changed from 125
     # loss was still decreasing at 250, increasing it to 25000
-    scheduler = StepLR(optimizer, step_size=25000, gamma=0.1)
+    # changed from 25k
+    scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
 
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
-    #  writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]) + '_noDecay')
+    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
+    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]) + '_noDecay')
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/' + str(FLAGS.logdir))
     iteration = 0
 
     # changed from 625
