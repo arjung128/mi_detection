@@ -162,7 +162,7 @@ class ConvNetQuake(nn.Module):
         return x
 
 
-def train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration):
+def train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration, scheduler):
     
     model.train()
     print_every = 10
@@ -215,9 +215,12 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
 
             train_loss = 0
             train_acc = 0
+   
+            if (iteration_*print_every) % 10000 == 0:
+                scheduler.step()
 
             # save model
-            if iteration_ % 10000 == 0:
+            if (iteration_*print_every) % 10000 == 0:
                 file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/', FLAGS.logdir, 'model-{:d}.pth'.format(iteration_))
                 torch.save(model.state_dict(), file_name)
     
@@ -296,12 +299,13 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     # runs_v5_noDecay had lr=1.0e-4. experimenting as this might be too low
-    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
+    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-3)
     # scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
     # step_size = 125 worked well, trying 250 now -- changed from 125
     # loss was still decreasing at 250, increasing it to 25000
     # changed from 25k
-    scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
+    # scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=1, gamma=0.1)
 
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
@@ -313,8 +317,8 @@ def main(argv):
     # changed from 1250
     for epoch in range(1, 25000):
         print("Train Epoch: ", epoch)
-        iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration)
-        scheduler.step()
+        iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration, scheduler)
+        # scheduler.step()
 
 
 if __name__ == '__main__':
