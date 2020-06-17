@@ -216,12 +216,13 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
             train_loss = 0
             train_acc = 0
    
-            if (iteration_*print_every) % 10000 == 0:
-                scheduler.step()
+            # if (iteration_*print_every) % 10000 == 0:
+                # scheduler.step()
 
             # save model
-            if (iteration_*print_every) % 10000 == 0:
-                file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/', FLAGS.logdir, 'model-{:d}.pth'.format(iteration_))
+            if (iteration_*print_every) % 2000 == 0:
+                # file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/', FLAGS.logdir, 'model-{:d}.pth'.format(iteration_))
+                file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/runs_' + str(channels[FLAGS.channel]), 'model-{:d}.pth'.format(iteration_))
                 torch.save(model.state_dict(), file_name)
     
     return iteration_
@@ -299,18 +300,19 @@ def main(argv):
     model = ConvNetQuake().to(device)
 
     # runs_v5_noDecay had lr=1.0e-4. experimenting as this might be too low
-    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-3)
+    optimizer = torch.optim.Adam(model.parameters(), lr=1.0e-4)
     # scheduler = StepLR(optimizer, step_size=125, gamma=0.1)
     # step_size = 125 worked well, trying 250 now -- changed from 125
     # loss was still decreasing at 250, increasing it to 25000
     # changed from 25k
-    # scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
-    scheduler = StepLR(optimizer, step_size=1, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
+    # scheduler = StepLR(optimizer, step_size=1, gamma=0.1)
 
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]) + '_noDecay')
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/' + str(FLAGS.logdir))
+    # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/' + str(FLAGS.logdir))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/runs_' + str(channels[FLAGS.channel]))
     iteration = 0
 
     # changed from 625
@@ -318,7 +320,7 @@ def main(argv):
     for epoch in range(1, 25000):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration, scheduler)
-        # scheduler.step()
+        scheduler.step()
 
 
 if __name__ == '__main__':
