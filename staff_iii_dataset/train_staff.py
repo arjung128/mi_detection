@@ -145,19 +145,19 @@ class ConvNetQuake(nn.Module):
         x = self.bn1(F.relu((self.conv1(x))))
         x = self.bn2(F.relu((self.conv2(x))))
         x = self.bn3(F.relu((self.conv3(x))))
-        '''
+        # '''
         x = self.bn4(F.relu((self.conv4(x))))
         x = self.bn5(F.relu((self.conv5(x))))
         x = self.bn6(F.relu((self.conv6(x))))
         x = self.bn7(F.relu((self.conv7(x))))
         x = self.bn8(F.relu((self.conv8(x))))
-        '''
+        # '''
         x = torch.reshape(x, (FLAGS.batch_size, -1))
-        '''
+        # '''
         x = self.linear1(x)
         x = self.linear2(x)
-        '''
-        x = self.linear3(x)
+        # '''
+        # x = self.linear3(x)
         x = self.sigmoid(x)     
         return x
 
@@ -216,13 +216,21 @@ def train(model, device, train_loader, optimizer, epoch, val_loader, writer, ite
             train_loss = 0
             train_acc = 0
    
-            # if (iteration_*print_every) % 10000 == 0:
-                # scheduler.step()
+            if (iteration_*print_every) == 150000:
+
+                # save to np file
+                np_file_path = 'results.npy'
+                np_arr = np.load(np_file_path)
+                np_arr[int(FLAGS.seed)][int(FLAGS.channel)] = val_acc
+                np.save(np_file_path, np_arr)
+
+                return iteration_*print_every
 
             # save model
             if (iteration_*print_every) % 2000 == 0:
                 # file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/', FLAGS.logdir, 'model-{:d}.pth'.format(iteration_))
-                file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/runs_' + str(channels[FLAGS.channel]), 'model-{:d}.pth'.format(iteration_))
+                file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/seed' + str(FLAGS.seed) + '/runs_' + str(channels[FLAGS.channel]) + '_seed=' + str(FLAGS.seed), 'model-{:d}.pth'.format(iteration_))
+                # file_name = os.path.join('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/' + str(FLAGS.logdir), 'model-{:d}.pth'.format(iteration_))
                 torch.save(model.state_dict(), file_name)
     
     return iteration_
@@ -305,14 +313,14 @@ def main(argv):
     # step_size = 125 worked well, trying 250 now -- changed from 125
     # loss was still decreasing at 250, increasing it to 25000
     # changed from 25k
-    scheduler = StepLR(optimizer, step_size=5000, gamma=0.1)
+    scheduler = StepLR(optimizer, step_size=3000, gamma=0.1)
     # scheduler = StepLR(optimizer, step_size=1, gamma=0.1)
 
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_debug_v2_neg4_decay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(FLAGS.seed) + '_' + str(channels[FLAGS.channel]) + "_" + str(FLAGS.run))
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff/runs_' + str(channels[FLAGS.channel]) + '_noDecay')
     # writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/' + str(FLAGS.logdir))
-    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/runs_' + str(channels[FLAGS.channel]))
+    writer = SummaryWriter('/home/arjung2/mi_detection/staff_iii_dataset/runs_staff_v1/seed' + str(FLAGS.seed) + '/runs_' + str(channels[FLAGS.channel]) + '_seed=' + str(FLAGS.seed))
     iteration = 0
 
     # changed from 625
@@ -320,6 +328,8 @@ def main(argv):
     for epoch in range(1, 25000):
         print("Train Epoch: ", epoch)
         iteration = train(model, device, train_loader, optimizer, epoch, val_loader, writer, iteration, scheduler)
+        if iteration == 150000:
+            break
         scheduler.step()
 
 

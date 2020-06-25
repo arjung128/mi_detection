@@ -1,25 +1,26 @@
 #!/bin/bash
 
-# arrays
-declare -a seeds=("39")
-# declare -a channels=("i" "ii" "iii" "avr" "avl" "avf" "v1" "v2" "v3" "v4" "v5" "v6" "vx" "vy" "vz")
-# declare -a runs=("1")
-
-# FIND BEST CHANNEL
-# for seed in ${seeds[@]}; do
-#     for ((run=0; run<1; run+=1)); do
-#         for ((channel=0; channel<9; channel+=1)); do
-#             echo $seed $run $channel
-#             python train_staff.py --channel=$channel --run=$run
-#         done
-#     done
-# done
-
-
-# FIND BEST SEED
-for ((seed=0; seed<10; seed+=1)); do
-    for ((run=0; run<3; run+=1)); do
-        echo $seed $run
-        python train_staff.py --channel=7 --run=$run --seed=$seed
-    done
+# make directories
+for ((seed=1; seed<7; seed+=1)); do
+    mkdir runs_staff_v1/seed$seed
 done
+
+# start jobs
+for ((channel=0; channel<9; channel+=1)); do
+    
+    # gpu0
+    for seed in 1 2; do
+        screen -d -m -S chan${channel}_seed$seed bash -c "source /home/arjung2/project/anaconda3/etc/profile.d/conda.sh && conda activate py27 && echo \"$channel\" \"$seed\" && python train_staff.py --channel=\"$channel\" --seed=\"$seed\" --gpu=2"
+    done
+ 
+    # gpu1
+    seed=3
+    screen -d -m -S chan${channel}_seed$seed bash -c "source /home/arjung2/project/anaconda3/etc/profile.d/conda.sh && conda activate py27 && echo \"$channel\" \"$seed\" && python train_staff.py --channel=\"$channel\" --seed=\"$seed\" --gpu=0"
+
+    # gpu2
+    for seed in 4 5 6; do
+        screen -d -m -S chan${channel}_seed$seed bash -c "source /home/arjung2/project/anaconda3/etc/profile.d/conda.sh && conda activate py27 && echo \"$channel\" \"$seed\" && python train_staff.py --channel=\"$channel\" --seed=\"$seed\" --gpu=1"
+    done
+
+done
+
